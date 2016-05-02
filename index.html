@@ -2,22 +2,16 @@
 layout: default
 ---
 
-<div class="home">
+<div class="wrapper">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="main_img">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+</div><!--end of main_img-->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <h1>UI Designer</h1>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p>Hi! I'm Eric Blake. I have a passion for UI Design. I believe in designing clean layouts that promote both a memorable and beneficial User Experience for all those that see my webpages.</p>
 
-</div>
+
+
+</div><!--end of main wrapper-->
