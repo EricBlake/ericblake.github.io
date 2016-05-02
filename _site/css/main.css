@@ -17,20 +17,19 @@ body {
       min-height: 225px;
       min-width: 175px; }
   .main_wrapper h1 {
-    text-align: center; }
-  .main_wrapper ul {
-    text-align: center; }
-    .main_wrapper ul a {
-      text-decoration: none;
-      color: #910523;
-      margin: 5%;
-      font-size: 2em;
-      font-weight: 800;
-      font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      padding-right: 1.75em; }
+    text-align: center;
+    font-family: "lucida grande", Helvetica, Arial, sans-serif;
+    color: #910523; }
+  .main_wrapper p {
+    font-family: "lucida grande", Helvetica, Arial, sans-serif;
+    line-height: 1.75em; }
 
 .about_wrapper {
   margin: 2%; }
+  .about_wrapper h1 {
+    font-family: "lucida grande", Helvetica, Arial, sans-serif;
+    color: #910523;
+    margin-bottom: 3em; }
   .about_wrapper .about_me_img {
     margin: 0 auto;
     text-align: center;
@@ -42,6 +41,11 @@ body {
       margin: 0 auto;
       min-height: 225px;
       min-width: 175px; }
+  .about_wrapper h2 {
+    font-family: "lucida grande", Helvetica, Arial, sans-serif; }
+  .about_wrapper p {
+    line-height: 1.75em;
+    font-family: "lucida grande", Helvetica, Arial, sans-serif; }
 
 .blog {
   margin: 2%; }
@@ -90,6 +94,46 @@ body {
       .site-footer .footer_wrapper ul li a {
         color: #320CED; }
 
+.work_wrapper {
+  margin: 2%;
+  box-sizing: border-box;
+  overflow: hidden; }
+  .work_wrapper h1 {
+    font-family: "lucida grande", Helvetica, Arial, sans-serif;
+    color: #910523;
+    text-align: center;
+    margin-bottom: 3em; }
+  .work_wrapper .project {
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 3em; }
+    .work_wrapper .project h2 {
+      font-family: "lucida grande", Helvetica, Arial, sans-serif;
+      text-align: center; }
+      .work_wrapper .project h2 a {
+        color: #231F20; }
+      .work_wrapper .project h2 a:hover {
+        color: #320CED; }
+    .work_wrapper .project .img_container {
+      margin: 0 auto;
+      text-align: center;
+      min-height: 225px;
+      min-width: 175px; }
+      .work_wrapper .project .img_container img {
+        height: 30%;
+        width: 20%;
+        margin: 0 auto;
+        min-height: 225px;
+        min-width: 175px; }
+
+.post_wrapper {
+  margin: 2%;
+  line-height: 1.75em;
+  font-family: "lucida grande", Helvetica, Arial, sans-serif; }
+  .post_wrapper div {
+    margin-bottom: 1em; }
+
 @media (min-width: 650px) {
   .main_wrapper p {
     width: 60%;
@@ -117,9 +161,55 @@ body {
     .about_wrapper .about_body {
       width: 40%;
       display: inline-block;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-left: 2em; }
       .about_wrapper .about_body p {
-        line-height: 1.75em; } }
+        line-height: 1.75em; }
+
+  .work_wrapper {
+    margin: 2%;
+    box-sizing: border-box;
+    overflow: hidden; }
+    .work_wrapper h1 {
+      font-family: "lucida grande", Helvetica, Arial, sans-serif;
+      color: #910523;
+      text-align: center;
+      margin-bottom: 3em; }
+    .work_wrapper .project {
+      box-sizing: border-box;
+      overflow: hidden;
+      margin: 0 auto;
+      width: 46%;
+      display: inline-block;
+      padding-bottom: 3em; }
+      .work_wrapper .project h2 {
+        font-family: "lucida grande", Helvetica, Arial, sans-serif;
+        text-align: center; }
+        .work_wrapper .project h2 a {
+          color: #231F20; }
+        .work_wrapper .project h2 a:hover {
+          color: #320CED; }
+      .work_wrapper .project .img_container {
+        margin: 0 auto;
+        text-align: center;
+        min-height: 445px;
+        min-width: 175px;
+        width: 50%; }
+        .work_wrapper .project .img_container img {
+          height: 30%;
+          width: 20%;
+          margin: 0 auto;
+          min-height: 225px;
+          min-width: 175px; }
+
+  .post_wrapper {
+    margin: 2%;
+    line-height: 1.75em;
+    font-family: "lucida grande", Helvetica, Arial, sans-serif;
+    max-width: 60%;
+    margin: 0 auto; }
+    .post_wrapper div {
+      margin-bottom: 1em; } }
 /**
  * Site header
  */
@@ -129,9 +219,14 @@ body {
   padding-top: 0em;
   box-sizing: border-box; }
 
-.wrapper img {
-  height: 60px;
-  align: center; }
+.wrapper {
+  overflow: auto; }
+  .wrapper .nav_img {
+    width: 10%;
+    margin: 0 auto; }
+    .wrapper .nav_img img {
+      height: 60px;
+      align: center; }
 
 .site-title {
   font-size: 26px;
@@ -152,7 +247,7 @@ body {
     font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif;
     color: #F0EDEE;
     margin: 5px;
-    padding-right: 0.5em; }
+    padding-right: 0.75em; }
   .site-nav a:hover {
     color: #320CED; }
   .site-nav .menu-icon {

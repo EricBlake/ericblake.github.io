@@ -11,9 +11,15 @@
 }
 
 .wrapper{
+    overflow: auto;
+    .nav_img{
+        width:10%;
+        margin:0 auto;
     img{
         height:60px;
         align:center;
+
+    }
     }
 }
 
@@ -44,7 +50,7 @@
         font-family: $base-font-family;
         color:$background-color;
         margin:5px;
-        padding-right:0.5em;
+        padding-right:0.75em;
     }
     a:hover{
         color:$button-color;

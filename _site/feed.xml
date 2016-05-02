@@ -6,20 +6,22 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 May 2016 04:04:25 -0500</pubDate>
-    <lastBuildDate>Mon, 02 May 2016 04:04:25 -0500</lastBuildDate>
+    <pubDate>Mon, 02 May 2016 05:30:36 -0500</pubDate>
+    <lastBuildDate>Mon, 02 May 2016 05:30:36 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Client Project</title>
-        <description>&lt;p&gt;This weekend we were placed in teams of two and asked to design a Web Application for the Red Arena. Red Arena is a great 501c3 that provides therapy through horseback riding. It was a weeklong project which was a nice break from the 3 day scramble we are used to. I think my teammate and I meshed pretty well together.&lt;/p&gt;
+        <description>&lt;div class=&quot;post_wrapper&quot;&gt;
+This weekend we were placed in teams of two and asked to design a Web Application for the Red Arena. Red Arena is a great 501c3 that provides therapy through horseback riding. It was a weeklong project which was a nice break from the 3 day scramble we are used to. I think my teammate and I meshed pretty well together.
+&lt;div&gt;&lt;/div&gt;
+Our Approach
 
-&lt;p&gt;Our Approach&lt;/p&gt;
-
-&lt;p&gt;We first looked at who would be our primary users for this app. The first and foremost would be the administrator. They are having a difficult time creating and editing schedules. The current process is to send out a mass text whenever there has been a change to the schedule. The schedule is currently a spreadsheet located within google docs. Yikes. We designed with simplicity in mind. We know that our users are very diverse in age so we attempted to make things clear for those who are not so tech savy. I think we accomplished this goal. After meeting with a representative from Red Arena and asking a ton of questions about the organization and the people involved with went to the drawing board.&lt;/p&gt;
-
-&lt;p&gt;Sketches upon sketches upon sketches. Each time bringing us a little closer to the ideal user experience. We learned the value of getting feedback from Red Arena Contact. Next we moved onto wireframes and style tiles. I think our color palette was spot on for the site.
-After that it was onto coding a style guide and designing pixel perfect mockups in illustrator. In the end we learned that it is always a good idea to question all your design decisions, go back to the drawing board when needed. And commit to your decisions once you are sure they make sense. Take a look at the project through the link below and please feel free to provide any feedback you can.&lt;/p&gt;
+We first looked at who would be our primary users for this app. The first and foremost would be the administrator. They are having a difficult time creating and editing schedules. The current process is to send out a mass text whenever there has been a change to the schedule. The schedule is currently a spreadsheet located within google docs. Yikes. We designed with simplicity in mind. We know that our users are very diverse in age so we attempted to make things clear for those who are not so tech savy. I think we accomplished this goal. After meeting with a representative from Red Arena and asking a ton of questions about the organization and the people involved with went to the drawing board.
+&lt;div&gt;&lt;/div&gt;
+Sketches upon sketches upon sketches. Each time bringing us a little closer to the ideal user experience. We learned the value of getting feedback from Red Arena Contact. Next we moved onto wireframes and style tiles. I think our color palette was spot on for the site.
+After that it was onto coding a style guide and designing pixel perfect mockups in illustrator. In the end we learned that it is always a good idea to question all your design decisions, go back to the drawing board when needed. And commit to your decisions once you are sure they make sense. Take a look at the project through the link below and please feel free to provide any feedback you can.
+&lt;/div&gt;
 </description>
         <pubDate>Wed, 27 Apr 2016 09:51:23 -0500</pubDate>
         <link>http://yourdomain.com/jekyll/update/2016/04/27/Client-Project.html</link>
@@ -34,12 +36,14 @@ After that it was onto coding a style guide and designing pixel perfect mockups 
     
       <item>
         <title>Web App Redesign</title>
-        <description>&lt;p&gt;Last week I did a Web App Redesign for the Linked In Home Page. This was an interesting challenge. We worked of set style guides and had an option to choose two of five. I chose to use the US Web Design Style Guide and the style guide for Healthcare.gov. In hind site I wish I had chosen two style guides that were a little more different. I am still working on it, but if you want to take a look follow the link below.&lt;/p&gt;
-
-&lt;p&gt;I learned to use Jekyll a little bit more for this project. I had My sass separated into a few different files for this project. I separated out my main css, color styling, typography and each breakpoint for the page. I will probably continue to do this from now on, because it was very convenient. I don’t think the color and typography will be separated because after I was towards the end of the project I thought that those could have been combined with less of a headache.&lt;/p&gt;
-
-&lt;p&gt;I did enjoy doing an app. Mostly because it is a site where people can go and interact with your design vs. just looking at a page. Some of the things I know I need and will work on going forward. Spacing between headers and paragraphs, font size (mostly not going too large), and my button styling. Some of the things I did well on this week is Margins. Margins had been a pain to me until this week, but I made it a point to make very sure that all my margins were uniform (On Mobile at least, still working on the others). I received some good feed back from the company Clearhead and am looking forward to making some changes when I have a moment.
-This weekend we are moving into the group project. I could not me more exhausted so Friday night will be reserved for nothing but sleep. Then we can all hit it hard on Saturday and hopefully turn out a good final product. I’ll let everyone knows how it turns out in my next post. Until then just keep on keepin on.&lt;/p&gt;
+        <description>&lt;div class=&quot;post_wrapper&quot;&gt;
+Last week I did a Web App Redesign for the Linked In Home Page. This was an interesting challenge. We worked of set style guides and had an option to choose two of five. I chose to use the US Web Design Style Guide and the style guide for Healthcare.gov. In hind site I wish I had chosen two style guides that were a little more different. I am still working on it, but if you want to take a look follow the link below.
+&lt;div&gt;&lt;/div&gt;
+I learned to use Jekyll a little bit more for this project. I had My sass separated into a few different files for this project. I separated out my main css, color styling, typography and each breakpoint for the page. I will probably continue to do this from now on, because it was very convenient. I don’t think the color and typography will be separated because after I was towards the end of the project I thought that those could have been combined with less of a headache.
+&lt;div&gt;&lt;/div&gt;
+I did enjoy doing an app. Mostly because it is a site where people can go and interact with your design vs. just looking at a page. Some of the things I know I need and will work on going forward. Spacing between headers and paragraphs, font size (mostly not going too large), and my button styling. Some of the things I did well on this week is Margins. Margins had been a pain to me until this week, but I made it a point to make very sure that all my margins were uniform (On Mobile at least, still working on the others). I received some good feed back from the company Clearhead and am looking forward to making some changes when I have a moment.
+This weekend we are moving into the group project. I could not me more exhausted so Friday night will be reserved for nothing but sleep. Then we can all hit it hard on Saturday and hopefully turn out a good final product. I’ll let everyone knows how it turns out in my next post. Until then just keep on keepin on.
+&lt;/div&gt;
 </description>
         <pubDate>Sat, 16 Apr 2016 09:51:23 -0500</pubDate>
         <link>http://yourdomain.com/jekyll/update/2016/04/16/Web-App-Redesign.html</link>
@@ -54,7 +58,9 @@ This weekend we are moving into the group project. I could not me more exhausted
     
       <item>
         <title>Typography</title>
-        <description>&lt;p&gt;Today I dabbled in typography. I was interesting to see how I could change the mood of the text with the font. Looking and the different variations I could see a drastic difference. I am doing a restaurant webpage redesign and choosing the right one is a major decision. I think the key to learning typography is that you have to be willing to try many things before you can narrow your vision into a well designed product. A great deal of trial, error, editing and reevaluation are likely to be in the days ahead.&lt;/p&gt;
+        <description>&lt;div class=&quot;post_wrapper&quot;&gt;
+Today I dabbled in typography. I was interesting to see how I could change the mood of the text with the font. Looking and the different variations I could see a drastic difference. I am doing a restaurant webpage redesign and choosing the right one is a major decision. I think the key to learning typography is that you have to be willing to try many things before you can narrow your vision into a well designed product. A great deal of trial, error, editing and reevaluation are likely to be in the days ahead.
+&lt;/div&gt;
 </description>
         <pubDate>Thu, 07 Apr 2016 09:51:23 -0500</pubDate>
         <link>http://yourdomain.com/jekyll/update/2016/04/07/Typography-copy.html</link>
@@ -69,12 +75,13 @@ This weekend we are moving into the group project. I could not me more exhausted
     
       <item>
         <title>From Corporate to Code-Worlds Apart!</title>
-        <description>&lt;p&gt;I’ve never been much of a sharer. I’m not sure that I have even posted facebook status in a few years. Here it goes. I left Houston (H-Town) to come to Austin and pursue a new career. I was lucky that I have a girlfriend and family who were very encouraging. I had a descent job. I can’t say that it was particularly enjoyable, but it was stable. A corporate-type gig. So what on earth possessed me to pack up, leave my family, city and dogs behind for twelve weeks while I embark on this new journey that may not pan out in the end? Who knows. Maybe some higher power or just a rash decision. Either way here I am and here I’ll stay until I come out on top.&lt;/p&gt;
+        <description>&lt;div class=&quot;post_wrapper&quot;&gt;I’ve never been much of a sharer. I’m not sure that I have even posted facebook status in a few years. Here it goes. I left Houston (H-Town) to come to Austin and pursue a new career. I was lucky that I have a girlfriend and family who were very encouraging. I had a descent job. I can’t say that it was particularly enjoyable, but it was stable. A corporate-type gig. So what on earth possessed me to pack up, leave my family, city and dogs behind for twelve weeks while I embark on this new journey that may not pan out in the end? Who knows. Maybe some higher power or just a rash decision. Either way here I am and here I’ll stay until I come out on top.
+&lt;div&gt;&lt;/div&gt;
+Week one is about to come to a close and I must say that so far I have mixed reviews. I am in the UI Design class at The Iron Yard. I think this course is going to be twelve weeks of highs and lows. The first day I felt like I had jumped into the deep end of the pool and forgot my floaties. The instructors are all really nice and super helpful. You can tell that they really know their stuff. There is a strong feeling of being overwhelmed most of the time, but I’m told that is by design. I do see that there is a method to the madness. In a weeks time I am writing html &amp;amp; css ten times better that I was on the first day with weeks of preparation leading up to my attendance. So I’ve decided to drink the kool aid and dive in head first. Hopefully I can swim without the floaties. If you like you can track my progress with the below link.
 
-&lt;p&gt;Week one is about to come to a close and I must say that so far I have mixed reviews. I am in the UI Design class at The Iron Yard. I think this course is going to be twelve weeks of highs and lows. The first day I felt like I had jumped into the deep end of the pool and forgot my floaties. The instructors are all really nice and super helpful. You can tell that they really know their stuff. There is a strong feeling of being overwhelmed most of the time, but I’m told that is by design. I do see that there is a method to the madness. In a weeks time I am writing html &amp;amp; css ten times better that I was on the first day with weeks of preparation leading up to my attendance. So I’ve decided to drink the kool aid and dive in head first. Hopefully I can swim without the floaties. If you like you can track my progress with the below link.&lt;/p&gt;
-
-&lt;p&gt;-See you next week
-https://github.com/EricBlake&lt;/p&gt;
+-See you next week
+https://github.com/EricBlake
+&lt;/div&gt;
 </description>
         <pubDate>Fri, 04 Mar 2016 08:51:23 -0600</pubDate>
         <link>http://yourdomain.com/jekyll/update/2016/03/04/Corporate-to-Code.html</link>
