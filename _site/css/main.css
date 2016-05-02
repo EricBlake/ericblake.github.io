@@ -8,8 +8,8 @@ body {
   .main_wrapper .main_img {
     margin: 0 auto;
     text-align: center;
-    min-height: 225px;
-    min-width: 175px; }
+    min-height: 250px;
+    min-width: 200px; }
     .main_wrapper .main_img img {
       height: 30%;
       width: 20%;
@@ -19,7 +19,7 @@ body {
   .main_wrapper h1 {
     text-align: center;
     font-family: "lucida grande", Helvetica, Arial, sans-serif;
-    color: #910523; }
+    color: #0A3C78; }
   .main_wrapper p {
     font-family: "lucida grande", Helvetica, Arial, sans-serif;
     line-height: 1.75em; }
@@ -28,7 +28,7 @@ body {
   margin: 2%; }
   .about_wrapper h1 {
     font-family: "lucida grande", Helvetica, Arial, sans-serif;
-    color: #910523;
+    color: #0A3C78;
     margin-bottom: 3em; }
   .about_wrapper .about_me_img {
     margin: 0 auto;
@@ -51,7 +51,7 @@ body {
   margin: 2%; }
   .blog h1 {
     font-family: "lucida grande", Helvetica, Arial, sans-serif;
-    color: #910523;
+    color: #0A3C78;
     text-align: center; }
   .blog .post-list {
     list-style: none;
@@ -68,12 +68,12 @@ body {
       -khtml-border-radius: 10px;
       font-size: 16px; }
     .blog .post-list li h2 a:hover {
-      color: #320CED; }
+      color: #C44536; }
   .blog .subscribe .rss-subscribe {
     text-align: center;
     color: #231F20; }
     .blog .subscribe .rss-subscribe a {
-      color: #910523; }
+      color: #0A3C78; }
 
 .site-footer {
   background-color: #0D0F0E;
@@ -92,7 +92,8 @@ body {
       padding-bottom: 5px;
       font-family: "lucida grande", Helvetica, Arial, sans-serif; }
       .site-footer .footer_wrapper ul li a {
-        color: #320CED; }
+        color: #C44536;
+        padding-left: 0.5em; }
 
 .work_wrapper {
   margin: 2%;
@@ -100,7 +101,7 @@ body {
   overflow: hidden; }
   .work_wrapper h1 {
     font-family: "lucida grande", Helvetica, Arial, sans-serif;
-    color: #910523;
+    color: #0A3C78;
     text-align: center;
     margin-bottom: 3em; }
   .work_wrapper .project {
@@ -114,7 +115,7 @@ body {
       .work_wrapper .project h2 a {
         color: #231F20; }
       .work_wrapper .project h2 a:hover {
-        color: #320CED; }
+        color: #C44536; }
     .work_wrapper .project .img_container {
       margin: 0 auto;
       text-align: center;
@@ -172,7 +173,7 @@ body {
     overflow: hidden; }
     .work_wrapper h1 {
       font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      color: #910523;
+      color: #0A3C78;
       text-align: center;
       margin-bottom: 3em; }
     .work_wrapper .project {
@@ -188,7 +189,7 @@ body {
         .work_wrapper .project h2 a {
           color: #231F20; }
         .work_wrapper .project h2 a:hover {
-          color: #320CED; }
+          color: #C44536; }
       .work_wrapper .project .img_container {
         margin: 0 auto;
         text-align: center;
@@ -237,8 +238,11 @@ body {
   float: left;
   font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif;
   text-decoration: none;
-  color: #ffffff;
+  color: #F0EDEE;
   padding-left: 0.5em; }
+
+.site-title:hover {
+  color: #C44536; }
 
 .site-nav {
   float: right;
@@ -249,7 +253,7 @@ body {
     margin: 5px;
     padding-right: 0.75em; }
   .site-nav a:hover {
-    color: #320CED; }
+    color: #C44536; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link:not(:last-child) {

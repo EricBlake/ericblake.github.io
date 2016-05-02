@@ -15,8 +15,8 @@ body{
 	.main_img{
 		margin:0 auto;
 		text-align: center;
-		min-height: 225px;
-		min-width: 175px;
+		min-height: 250px;
+		min-width: 200px;
 	
 		img{
 			height:30%;
@@ -151,6 +151,7 @@ body{
 				font-family: $body-font;
 				a{
 					color:$button-color;
+					padding-left:0.5em;
 				}
 			}
 		}

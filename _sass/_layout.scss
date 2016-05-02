@@ -32,13 +32,16 @@
     float: left;
     font-family: $base-font-family;
     text-decoration: none;
-    color:#ffffff;
+    color:$background-color;
     padding-left:0.5em;
 
     &,
     &:visited {
      
     }
+}
+.site-title:hover{
+    color:$button-color;
 }
 
 
