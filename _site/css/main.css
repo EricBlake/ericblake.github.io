@@ -59,14 +59,14 @@ body {
     text-align: center; }
     .blog .post-list li h2 a {
       font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      text-decoration: none;
       background-color: #b4b7b2;
       padding: 0.5em;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 10px;
       -khtml-border-radius: 10px;
-      font-size: 16px; }
+      font-size: 16px;
+      color: #231F20; }
     .blog .post-list li h2 a:hover {
       color: #C44536; }
   .blog .subscribe .rss-subscribe {
