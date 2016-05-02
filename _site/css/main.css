@@ -74,6 +74,8 @@ body {
     color: #231F20; }
     .blog .subscribe .rss-subscribe a {
       color: #0A3C78; }
+    .blog .subscribe .rss-subscribe a:hover {
+      color: #C44536; }
 
 .site-footer {
   background-color: #0D0F0E;
@@ -94,6 +96,8 @@ body {
       .site-footer .footer_wrapper ul li a {
         color: #C44536;
         padding-left: 0.5em; }
+      .site-footer .footer_wrapper ul li a:hover {
+        text-decoration: underline; }
 
 .work_wrapper {
   margin: 2%;
@@ -151,6 +155,7 @@ body {
     .about_wrapper .about_me_img {
       height: 400px;
       width: 40%;
+      min-width: 300px;
       overflow: hidden;
       display: inline-block; }
       .about_wrapper .about_me_img img {
