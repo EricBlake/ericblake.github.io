@@ -4,7 +4,7 @@ layout: default
 
 <div class="blog">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Recent Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -17,8 +17,10 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+    
+    <div class="subscribe">
+      <p class="rss-subscribe">subscribe <a href="{{ "https://medium.com/@EricBlake" | prepend: site.baseurl }}">via <i class="fa fa-medium" aria-hidden="true"></i></a></p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    </div>
 </div><!--closing blog tag-->
 
