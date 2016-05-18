@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="blog">
+
+  <h1 class="page-heading">Recent Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+    
+    <div class="subscribe">
+      <p class="rss-subscribe">subscribe <a href="{{ "https://medium.com/@EricBlake" | prepend: site.baseurl }}">via <i class="fa fa-medium" aria-hidden="true"></i></a></p>
+
+    </div>
+</div><!--closing blog tag-->
+
