@@ -1,0 +1,81 @@
+.about_wrapper{
+	margin:2%;
+
+	h1{
+		font-family: $body-font;
+		color:$brand-color;
+		margin-bottom: 3em;
+	}
+		.about_me_img{
+		margin:0 auto;
+		text-align: center;
+		min-height: 225px;
+		min-width: 175px;
+
+			img{
+			height:30%;
+			width:20%;
+			margin:0 auto;
+			min-height: 225px;
+			min-width: 175px;
+				
+			}
+		}
+		
+
+		h2{
+			font-family: $body-font;
+		}
+			p{
+					line-height: 1.75em;
+					font-family: $body-font;
+					
+				}
+		
+
+	}//closing about_wrapper tag//
+
+	@media (min-width: 650px){
+		.about_wrapper{
+	overflow:hidden;
+	box-sizing:border-box;
+	margin:2%;
+
+
+	h1{
+		text-align: center;
+	}
+
+		.about_me_img{
+		height: 400px;
+		width:40%;
+		min-width: 300px;
+		overflow: hidden;
+		display: inline-block;
+
+
+		img{
+			height:30%;
+			width:20%;
+			margin:0 auto;
+			min-height: 400px;
+			min-width: 300px;
+			}
+		}
+
+
+.about_body{
+	width: 40%;
+	display:inline-block;
+	margin:0 auto;
+	margin-left:2em;
+	p{
+		line-height: 1.75em;
+		
+	}
+
+
+}
+
+	}//closing about_wrapper tag//
+	}
