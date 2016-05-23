@@ -15,67 +15,39 @@ body{
 	.main_img{
 		margin:0 auto;
 		text-align: center;
-		min-height: 250px;
-		min-width: 200px;
+	
+		width: 50%;
+
+
 	
 		img{
-			height:30%;
-			width:20%;
+		
+			width:100%;
 			margin:0 auto;
-			min-height: 225px;
-			min-width: 175px;
+			box-shadow: 2px 2px 2px rgba(0,0,0,.25);
 		}
 		
 	}
+	.main_content{
+		margin:2%;
 
 	h1{
 		text-align: center;
 		font-family:$body-font;
-		color:$brand-color;
+		color:$font_color;
+
 	}
 	p{
 		font-family: $body-font;
 		line-height: 1.75em;
+		color: $font_color;
+		width: 100%;
 	}
+}
 
 	}//closing wrapper tag//
 
-	.about_wrapper{
-	margin:2%;
-
-	h1{
-		font-family: $body-font;
-		color:$brand-color;
-		margin-bottom: 3em;
-	}
-		.about_me_img{
-		margin:0 auto;
-		text-align: center;
-		min-height: 225px;
-		min-width: 175px;
-
-			img{
-			height:30%;
-			width:20%;
-			margin:0 auto;
-			min-height: 225px;
-			min-width: 175px;
-				
-			}
-		}
-		
-
-		h2{
-			font-family: $body-font;
-		}
-			p{
-					line-height: 1.75em;
-					font-family: $body-font;
-					
-				}
-		
-
-	}//closing about_wrapper tag//
+	
 
 
 //-------------------------------------------------blog--------------------------
@@ -132,99 +104,12 @@ body{
 
 
 
-//-------------------------------------------------footer--------------------------
-.site-footer{
-	background-color:#0D0F0E;
-	margin-top:10em;
-	overflow:hidden;
-	margin-bottom:0;
-
-	.footer_wrapper{
-		p{
-			text-align: center;
-			color:$background-color;
-			font-family: $base-font-family;
-		}
-		ul{
-			list-style:none;
-			li{
-				color:$background-color;
-				text-align:center;
-				padding-bottom:5px;
-				font-family: $body-font;
-				a{
-					color:$button-color;
-					padding-left:0.5em;
-				}
-				a:hover{
-					text-decoration: underline;
-				}
-			}
-		}
-	}
-
-	}//closing site footer tag
 
 
 
 //-------------------------------------------------group project--------------------------
 
-.work_wrapper{
-	margin:2%;
-	box-sizing:border-box;
-	overflow:hidden;
 
-	h1{
-		font-family: $body-font;
-		color:$brand-color;
-		text-align: center;
-		margin-bottom: 3em;
-	}
-
-
-	.project{
-		box-sizing:border-box;
-		overflow: hidden;
-		margin: 0 auto;
-		padding-bottom:3em;
-		h2{
-			font-family: $body-font;
-			text-align: center;
-
-			a{
-				
-				color:$text-color;
-			}
-			a:hover{
-				color:$button-color;
-			}
-
-		}
-
-		.img_container{
-			margin:0 auto;
-			text-align: center;
-			min-height: 225px;
-			min-width: 175px;
-
-			img{
-				 height:30%;
-			width:20%;
-			margin:0 auto;
-			min-height: 225px;
-			min-width: 175px;
-			}
-		}
-
-
-
-	}//--project closing tag--
-
-	
-
-
-
-}//------closing work_wrapper tag//
 
 
 
@@ -257,119 +142,54 @@ body{
 		margin:0 auto;
 		line-height: 1.75em;
 		margin-bottom: 2em;
+	
+		overflow: hidden;
 			}
+
+			.main_img{
+		margin:0 auto;
+		text-align: center;
+		padding:2%;
+		float: left;
+		width: 30%;
+		box-sizing:border-box;
+
+
+	
+		img{
+		
+			width:100%;
+			margin:0 auto;
+			box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+		}
+		
+	}
+	.main_content{
+		margin:2%;
+		float: left;
+		box-sizing:border-box;
+		width: 60%;
+	h1{
+		text-align: center;
+		font-family:$body-font;
+		color:$font_color;
+		margin-top: 0;
+
+	}
+	p{
+		font-family: $body-font;
+		line-height: 1.75em;
+		color: $font_color;
+		margin:0 auto;
+	}
+}
 
 }//closing main wrapper tag//
 
 
 
-.about_wrapper{
-	overflow:hidden;
-	box-sizing:border-box;
-	margin:2%;
 
 
-	h1{
-		text-align: center;
-	}
-
-		.about_me_img{
-		height: 400px;
-		width:40%;
-		min-width: 300px;
-		overflow: hidden;
-		display: inline-block;
-
-
-		img{
-			height:30%;
-			width:20%;
-			margin:0 auto;
-			min-height: 400px;
-			min-width: 300px;
-			}
-		}
-
-
-.about_body{
-	width: 40%;
-	display:inline-block;
-	margin:0 auto;
-	margin-left:2em;
-	p{
-		line-height: 1.75em;
-		
-	}
-
-
-}
-
-	}//closing about_wrapper tag//
-
-
-
-
-//------------------------------------work breakpoint
-
-.work_wrapper{
-	margin:2%;
-	box-sizing:border-box;
-	overflow:hidden;
-
-	h1{
-		font-family: $body-font;
-		color:$brand-color;
-		text-align: center;
-		margin-bottom: 3em;
-	}
-
-
-	.project{
-		box-sizing:border-box;
-		overflow: hidden;
-		margin: 0 auto;
-		width:46%;
-		display: inline-block;
-		padding-bottom:3em;
-		h2{
-			font-family: $body-font;
-			text-align: center;
-
-			a{
-				
-				color:$text-color;
-			}
-			a:hover{
-				color:$button-color;
-			}
-
-		}
-
-		.img_container{
-			margin:0 auto;
-			text-align: center;
-			min-height: 445px;
-			min-width: 175px;
-			width:50%;
-
-			img{
-			height:30%;
-			width:20%;
-			margin:0 auto;
-			min-height: 225px;
-			min-width: 175px;
-			}
-		}
-
-
-
-	}//--project closing tag--
-
-	
-
-
-
-}//------closing work_wrapper tag//
 
 
 //--------------------------------------blog post breakpoint 

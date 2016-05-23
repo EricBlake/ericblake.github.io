@@ -73,3 +73,39 @@
     }
 
 }
+
+
+
+.site-footer{
+    background-color:#0D0F0E;
+    margin-top:10em;
+    overflow:hidden;
+    margin-bottom:0;
+
+    .footer_wrapper{
+        p{
+            text-align: center;
+            color:$background-color;
+            font-family: $base-font-family;
+        }
+        ul{
+            list-style:none;
+            li{
+                color:$background-color;
+                text-align:center;
+                padding-bottom:5px;
+                font-family: $body-font;
+                a{
+                    color:$button-color;
+                    padding-left:0.5em;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    }//closing site footer tag
+
+
