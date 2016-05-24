@@ -1,9 +1,9 @@
 body {
-  background-color: #F0EDEE; }
+  background-color: #FFFAEF; }
 
 .main_wrapper {
   margin: 2%;
-  background-color: #F0EDEE;
+  background-color: #FFFAEF;
   box-sizing: border-box; }
   .main_wrapper .main_img {
     margin: 0 auto;
@@ -13,6 +13,25 @@ body {
       width: 100%;
       margin: 0 auto;
       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
+    .main_wrapper .main_img * {
+      -webkit-animation: fadein 4s;
+      -moz-animation: fadein 4s;
+      animation: fadein 4s; }
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
   .main_wrapper .main_content {
     margin: 2%; }
     .main_wrapper .main_content h1 {
@@ -24,37 +43,25 @@ body {
       line-height: 1.75em;
       color: #494943;
       width: 100%; }
-
-.blog {
-  margin: 2%; }
-  .blog h1 {
-    font-family: "lucida grande", Helvetica, Arial, sans-serif;
-    color: #0A3C78;
-    text-align: center; }
-  .blog .post-list {
-    list-style: none;
-    display: inline;
-    text-align: center; }
-    .blog .post-list li h2 a {
-      font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      background-color: #b4b7b2;
-      padding: 0.5em;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
-      border-radius: 10px;
-      -khtml-border-radius: 10px;
-      font-size: 16px;
-      color: #231F20; }
-    .blog .post-list li h2 a:hover {
-      color: #C44536; }
-  .blog .subscribe .rss-subscribe {
-    text-align: center;
-    color: #231F20; }
-    .blog .subscribe .rss-subscribe a {
-      color: #0A3C78; }
-    .blog .subscribe .rss-subscribe a:hover {
-      color: #C44536; }
-
+    .main_wrapper .main_content * {
+      -webkit-animation: fadein 5s;
+      -moz-animation: fadein 5s;
+      animation: fadein 5s; }
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 .post_wrapper {
   margin: 2%;
   line-height: 1.75em;
@@ -94,22 +101,13 @@ body {
       font-family: "lucida grande", Helvetica, Arial, sans-serif;
       line-height: 1.75em;
       color: #494943;
-      margin: 0 auto; }
-
-  .post_wrapper {
-    margin: 2%;
-    line-height: 1.75em;
-    font-family: "lucida grande", Helvetica, Arial, sans-serif;
-    max-width: 60%;
-    margin: 0 auto; }
-    .post_wrapper div {
-      margin-bottom: 1em; } }
+      margin: 0 auto; } }
 /**
  * Site header
  */
 .site-header {
-  background-color: #0D0F0E;
-  min-height: 60px;
+  background-color: #26547C;
+  height: auto;
   padding-top: 0em;
   box-sizing: border-box; }
 
@@ -131,7 +129,7 @@ body {
   float: left;
   font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif;
   text-decoration: none;
-  color: #F0EDEE;
+  color: #FFFAEF;
   padding-left: 0.5em; }
 
 .site-title:hover {
@@ -142,7 +140,7 @@ body {
   line-height: 56px; }
   .site-nav a {
     font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif;
-    color: #F0EDEE;
+    color: #FFFAEF;
     margin: 5px;
     padding-right: 0.75em; }
   .site-nav a:hover {
@@ -153,18 +151,18 @@ body {
     margin-right: 20px; }
 
 .site-footer {
-  background-color: #0D0F0E;
+  background-color: #26547C;
   margin-top: 10em;
   overflow: hidden;
   margin-bottom: 0; }
   .site-footer .footer_wrapper p {
     text-align: center;
-    color: #F0EDEE;
+    color: #FFFAEF;
     font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif; }
   .site-footer .footer_wrapper ul {
     list-style: none; }
     .site-footer .footer_wrapper ul li {
-      color: #F0EDEE;
+      color: #FFFAEF;
       text-align: center;
       padding-bottom: 5px;
       font-family: "lucida grande", Helvetica, Arial, sans-serif; }
@@ -173,6 +171,26 @@ body {
         padding-left: 0.5em; }
       .site-footer .footer_wrapper ul li a:hover {
         text-decoration: underline; }
+
+* {
+  margin: 0; }
+
+html,
+body {
+  height: 100%; }
+
+.page-content {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; }
+
+.wrapper:after {
+  content: "";
+  display: block; }
+
+.site-footer,
+.wrapper:after {
+  /* .push must be the same height as footer */ }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -531,10 +549,6 @@ th {
 
 .about_wrapper {
   margin: 2%; }
-  .about_wrapper h1 {
-    font-family: "lucida grande", Helvetica, Arial, sans-serif;
-    color: #0A3C78;
-    margin-bottom: 3em; }
   .about_wrapper .about_me_img {
     margin: 0 auto;
     text-align: center;
@@ -557,8 +571,6 @@ th {
     overflow: hidden;
     box-sizing: border-box;
     margin: 2%; }
-    .about_wrapper h1 {
-      text-align: center; }
     .about_wrapper .about_me_img {
       height: 400px;
       width: 40%;
@@ -647,3 +659,42 @@ th {
           margin: 0 auto;
           min-height: 225px;
           min-width: 175px; } }
+.blog {
+  margin: 2%; }
+  .blog h1 {
+    font-family: "lucida grande", Helvetica, Arial, sans-serif;
+    color: #0A3C78;
+    text-align: center; }
+  .blog .post-list {
+    list-style: none;
+    display: inline;
+    text-align: center; }
+    .blog .post-list li h2 a {
+      font-family: "lucida grande", Helvetica, Arial, sans-serif;
+      background-color: #b4b7b2;
+      padding: 0.5em;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      -khtml-border-radius: 10px;
+      font-size: 16px;
+      color: #231F20; }
+    .blog .post-list li h2 a:hover {
+      color: #C44536; }
+  .blog .subscribe .rss-subscribe {
+    text-align: center;
+    color: #231F20; }
+    .blog .subscribe .rss-subscribe a {
+      color: #0A3C78; }
+    .blog .subscribe .rss-subscribe a:hover {
+      color: #C44536; }
+
+@media (min-width: 650px) {
+  .post_wrapper {
+    margin: 2%;
+    line-height: 1.75em;
+    font-family: "lucida grande", Helvetica, Arial, sans-serif;
+    max-width: 60%;
+    margin: 0 auto; }
+    .post_wrapper div {
+      margin-bottom: 1em; } }

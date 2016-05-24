@@ -1,0 +1,57 @@
+//-------------------------------------------------blog--------------------------
+.blog {
+    margin: 2%;
+    h1 {
+        font-family: $body-font;
+        color: $brand-color;
+        text-align: center;
+    }
+    .post-list {
+        list-style: none;
+        display: inline;
+        text-align: center;
+        li {
+            h2 {
+                a {
+                    font-family: $body-font;
+                    background-color: $grey-color;
+                    padding: 0.5em;
+                    -moz-border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    border-radius: 10px;
+                    -khtml-border-radius: 10px;
+                    font-size: $base-font-size;
+                    color: $text-color;
+                }
+                a:hover {
+                    color: $button-color;
+                }
+            }
+        }
+    }
+    .subscribe {
+        .rss-subscribe {
+            text-align: center;
+            color: $text-color;
+            a {
+                color: $brand-color;
+            }
+            a:hover {
+                color: $button-color;
+            }
+        }
+    }
+} //closing blog tag
+@media (min-width: 650px) {
+    //--------------------------------------blog post breakpoint 
+    .post_wrapper {
+        margin: 2%;
+        line-height: 1.75em;
+        font-family: $body-font;
+        max-width: 60%;
+        margin: 0 auto;
+        div {
+            margin-bottom: 1em;
+        }
+    }
+}
