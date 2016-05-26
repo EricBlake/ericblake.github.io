@@ -1,9 +1,99 @@
+.row {
+  margin: 0 auto; }
+
+@media (min-width: 595px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 3.75%;
+    float: left;
+    margin-right: 5%; }
+    .col-1:last-child {
+      margin-right: 0; }
+
+  .col-2 {
+    width: 12.5%;
+    float: left;
+    margin-right: 5%; }
+    .col-2:last-child {
+      margin-right: 0; }
+
+  .col-3 {
+    width: 21.25%;
+    float: left;
+    margin-right: 5%; }
+    .col-3:last-child {
+      margin-right: 0; }
+
+  .col-4 {
+    width: 30%;
+    float: left;
+    margin-right: 5%; }
+    .col-4:last-child {
+      margin-right: 0; }
+
+  .col-5 {
+    width: 38.75%;
+    float: left;
+    margin-right: 5%; }
+    .col-5:last-child {
+      margin-right: 0; }
+
+  .col-6 {
+    width: 47.5%;
+    float: left;
+    margin-right: 5%; }
+    .col-6:last-child {
+      margin-right: 0; }
+
+  .col-7 {
+    width: 56.25%;
+    float: left;
+    margin-right: 5%; }
+    .col-7:last-child {
+      margin-right: 0; }
+
+  .col-8 {
+    width: 65%;
+    float: left;
+    margin-right: 5%; }
+    .col-8:last-child {
+      margin-right: 0; }
+
+  .col-9 {
+    width: 73.75%;
+    float: left;
+    margin-right: 5%; }
+    .col-9:last-child {
+      margin-right: 0; }
+
+  .col-10 {
+    width: 82.5%;
+    float: left;
+    margin-right: 5%; }
+    .col-10:last-child {
+      margin-right: 0; }
+
+  .col-11 {
+    width: 91.25%;
+    float: left;
+    margin-right: 5%; }
+    .col-11:last-child {
+      margin-right: 0; }
+
+  .col-12 {
+    width: 100%;
+    float: left;
+    margin-right: 5%; }
+    .col-12:last-child {
+      margin-right: 0; } }
 body {
-  background-color: #FFFAEF; }
+  background-color: #F7F4F3; }
 
 .main_wrapper {
   margin: 2%;
-  background-color: #FFFAEF;
+  background-color: #F7F4F3;
   box-sizing: border-box; }
   .main_wrapper .main_img {
     margin: 0 auto;
@@ -106,7 +196,7 @@ body {
  * Site header
  */
 .site-header {
-  background-color: #26547C;
+  background-color: #0E1011;
   height: auto;
   padding-top: 0em;
   box-sizing: border-box; }
@@ -129,7 +219,7 @@ body {
   float: left;
   font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif;
   text-decoration: none;
-  color: #FFFAEF;
+  color: #F7F4F3;
   padding-left: 0.5em; }
 
 .site-title:hover {
@@ -140,7 +230,7 @@ body {
   line-height: 56px; }
   .site-nav a {
     font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif;
-    color: #FFFAEF;
+    color: #F7F4F3;
     margin: 5px;
     padding-right: 0.75em; }
   .site-nav a:hover {
@@ -151,18 +241,18 @@ body {
     margin-right: 20px; }
 
 .site-footer {
-  background-color: #26547C;
+  background-color: #0E1011;
   margin-top: 10em;
   overflow: hidden;
   margin-bottom: 0; }
   .site-footer .footer_wrapper p {
     text-align: center;
-    color: #FFFAEF;
+    color: #F7F4F3;
     font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif; }
   .site-footer .footer_wrapper ul {
     list-style: none; }
     .site-footer .footer_wrapper ul li {
-      color: #FFFAEF;
+      color: #F7F4F3;
       text-align: center;
       padding-bottom: 5px;
       font-family: "lucida grande", Helvetica, Arial, sans-serif; }
@@ -590,75 +680,36 @@ th {
       margin-left: 2em; }
       .about_wrapper .about_body p {
         line-height: 1.75em; } }
-.work_wrapper {
-  margin: 2%;
-  box-sizing: border-box;
+.work_wrapper .row .col {
   overflow: hidden; }
-  .work_wrapper h1 {
-    font-family: "lucida grande", Helvetica, Arial, sans-serif;
-    color: #0A3C78;
-    text-align: center;
-    margin-bottom: 3em; }
-  .work_wrapper .project {
-    box-sizing: border-box;
-    overflow: hidden;
-    margin: 0 auto;
-    padding-bottom: 3em; }
-    .work_wrapper .project h2 {
-      font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      text-align: center; }
-      .work_wrapper .project h2 a {
-        color: #231F20; }
-      .work_wrapper .project h2 a:hover {
-        color: #C44536; }
-    .work_wrapper .project .img_container {
-      margin: 0 auto;
-      text-align: center;
-      min-height: 225px;
-      min-width: 175px; }
-      .work_wrapper .project .img_container img {
-        height: 30%;
-        width: 20%;
-        margin: 0 auto;
-        min-height: 225px;
-        min-width: 175px; }
-
-@media (min-width: 650px) {
-  .work_wrapper {
+  .work_wrapper .row .col .project {
+    width: 46%;
+    float: left;
     margin: 2%;
-    box-sizing: border-box;
-    overflow: hidden; }
-    .work_wrapper h1 {
-      font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      color: #0A3C78;
-      text-align: center;
-      margin-bottom: 3em; }
-    .work_wrapper .project {
-      box-sizing: border-box;
-      overflow: hidden;
-      margin: 0 auto;
-      width: 46%;
-      display: inline-block;
-      padding-bottom: 3em; }
-      .work_wrapper .project h2 {
-        font-family: "lucida grande", Helvetica, Arial, sans-serif;
-        text-align: center; }
-        .work_wrapper .project h2 a {
-          color: #231F20; }
-        .work_wrapper .project h2 a:hover {
-          color: #C44536; }
-      .work_wrapper .project .img_container {
-        margin: 0 auto;
-        text-align: center;
-        min-height: 445px;
-        min-width: 175px;
-        width: 50%; }
-        .work_wrapper .project .img_container img {
-          height: 30%;
-          width: 20%;
-          margin: 0 auto;
-          min-height: 225px;
-          min-width: 175px; } }
+    box-sizing: border-box; }
+    .work_wrapper .row .col .project a {
+      text-decoration: none;
+      color: transparent; }
+      .work_wrapper .row .col .project a .img_cont {
+        width: 100%;
+        margin: 0 auto; }
+        .work_wrapper .row .col .project a .img_cont img {
+          width: 100%;
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
+        .work_wrapper .row .col .project a .img_cont h3 {
+          position: relative;
+          top: -100px;
+          left: 0;
+          width: 100%;
+          text-align: center; }
+    .work_wrapper .row .col .project a:hover {
+      color: #F7F4F3;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
+      .work_wrapper .row .col .project a:hover .img_cont h3 {
+        -webkit-animation: fadein 2s;
+        -moz-animation: fadein 2s;
+        animation: fadein 2s; }
+
 .blog {
   margin: 2%; }
   .blog h1 {
