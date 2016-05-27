@@ -12,6 +12,7 @@ $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$subheader_size:24px;
 
 $spacing-unit:30px;
 $font_color:#494943;
@@ -56,7 +57,7 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
   
 }
 
-@media (min-width: 595px){
+@media (min-width: 650px){
   .col {
     margin-bottom: 0;
   }
@@ -115,7 +116,8 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
         "about",
         "work",
         "blog",
-        "outdoors";
+        "outdoors",
+        "mobile";
     
 
 

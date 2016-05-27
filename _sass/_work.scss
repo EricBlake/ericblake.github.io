@@ -2,7 +2,7 @@
     .row{
         .col{
            
-            overflow: hidden;
+            
           
 
             .project{
@@ -35,7 +35,7 @@
                     }//closing img_cont
                 }//closing a tag
                 a:hover{
-                color:$background_color;
+                color:#5995ED;
                 text-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
                     .img_cont{
                         h3{
@@ -44,9 +44,9 @@
                   animation: fadein 2s;
               }
 
-              }
+              }//closing hover img_cont
 
-            }
+            }//closing a:hover tag
 
 
             }//closing project
@@ -58,3 +58,62 @@
 
 
 }//closing work_wrapper
+
+@media(min-width:590px) {
+    .work_wrapper {
+
+        .row {
+            .col {
+                width: 100%;
+
+                
+                .project {
+                    width: 50%;
+                    float: left;
+                    margin: 0 auto;
+                    box-sizing: border-box;
+
+
+                    a {
+                        text-decoration: none;
+                        color: transparent;
+                        font-size: 30px;
+                        .img_cont {
+                            width: 100%;
+                            margin: 0 auto;
+                            img {
+                                width: 80%;
+                                margin:0 auto;
+                                display: block;
+                                box-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
+                            }
+                            h3 {
+                                position: relative;
+                                top: -100px;
+                                left: 0;
+                                width: 100%;
+                                text-align: center;
+
+                            }
+                        } //closing img_cont
+                    } //closing a tag
+                    a:hover {
+                        color: #5995ED;
+                        text-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
+                        .img_cont {
+                            h3 {
+                                -webkit-animation: fadein 2s;
+                                -moz-animation: fadein 2s;
+                                animation: fadein 2s;
+                            }
+                        } //closing hover img_cont
+                    } //closing a:hover tag
+                } //closing project
+            } //cloisng col col-8
+        } //closing row
+    } //closing work_wrapper
+} //closing media tag
+
+
+
+
