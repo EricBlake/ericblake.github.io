@@ -1,0 +1,26 @@
+.outdoors_wrapper {
+	font-family:$body_font;
+    .row {
+        .col {
+        	h1{
+        		
+        		text-align:center;
+        	}
+        	.outdoors_about{
+        		margin:2%;
+        		
+
+        		}//closing outdoors_about
+        	.outdoors_img{
+        		width: 75%;
+        		img{
+        			width: 100%;
+
+
+
+        			}//closing img tag
+
+        		}//closing outdoors img
+        }//closing col tag
+    } //closing row tag
+} //closing .outdoors_wrapper
