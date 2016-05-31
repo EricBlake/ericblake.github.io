@@ -680,33 +680,32 @@ th {
       margin-left: 2em; }
       .about_wrapper .about_body p {
         line-height: 1.75em; } }
-.work_wrapper .row .col .project {
-  width: 46%;
-  float: left;
-  margin: 2%;
-  box-sizing: border-box; }
-  .work_wrapper .row .col .project a {
-    text-decoration: none;
-    color: transparent; }
-    .work_wrapper .row .col .project a .img_cont {
-      width: 100%;
-      margin: 0 auto; }
-      .work_wrapper .row .col .project a .img_cont img {
+.work_wrapper {
+  font-family: "lucida grande", Helvetica, Arial, sans-serif; }
+  .work_wrapper .row .col h2 {
+    text-align: center;
+    padding: 2em; }
+  .work_wrapper .row .col .project {
+    width: 46%;
+    float: left;
+    margin: 2%;
+    box-sizing: border-box; }
+    .work_wrapper .row .col .project a {
+      text-decoration: none;
+      color: #C44536;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
+      .work_wrapper .row .col .project a .img_cont {
         width: 100%;
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
-      .work_wrapper .row .col .project a .img_cont h3 {
-        position: relative;
-        top: -100px;
-        left: 0;
-        width: 100%;
-        text-align: center; }
-  .work_wrapper .row .col .project a:hover {
-    color: #5995ED;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
-    .work_wrapper .row .col .project a:hover .img_cont h3 {
-      -webkit-animation: fadein 2s;
-      -moz-animation: fadein 2s;
-      animation: fadein 2s; }
+        margin: 0 auto; }
+        .work_wrapper .row .col .project a .img_cont img {
+          width: 100%;
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
+        .work_wrapper .row .col .project a .img_cont h3 {
+          position: relative;
+          top: -100px;
+          left: 0;
+          width: 100%;
+          text-align: center; }
 
 @media (min-width: 590px) {
   .work_wrapper .row .col {
@@ -719,7 +718,8 @@ th {
       .work_wrapper .row .col .project a {
         text-decoration: none;
         color: transparent;
-        font-size: 30px; }
+        font-size: 25px;
+        text-shadow: none; }
         .work_wrapper .row .col .project a .img_cont {
           width: 100%;
           margin: 0 auto; }
