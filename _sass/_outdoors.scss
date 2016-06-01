@@ -1,4 +1,4 @@
-.outdoors_wrapper {
+.project_wrapper {
 	font-family:$body_font;
     .row {
 
@@ -9,7 +9,7 @@
             }
         .col {
 
-        	.outdoors_about{
+        	.project_about{
         		margin:2%;
 
                 h2{
@@ -32,7 +32,7 @@
 
 
 
-    .outdoors_swot{
+    .project_research{
         padding-top:2em;
         overflow: hidden;
         background-color: #D3DFEA;
@@ -58,50 +58,65 @@
         background-color: #D3DFEA;
         padding-bottom:1em;
 
-            .swot_img{
-                box-sizing:border-box;
-                width: 33.333%;
-                margin:0 auto;
-                float: left;
-                margin-bottom:1em;
-                img{
-                    width: 100%;
-                    
-                }
-            }//closing swot_img
-
-            .personas_img{
+          
+            .research_img{
       
                 box-sizing:border-box;
-                margin:0.5em;
-                width: 33.333%;
-                margin:0 auto;
-                margin-bottom:1em;
-                float: left;
-                    img{
-                        width: 100%;
-                       
-                    }
-            }
-            .user_img{
-                margin-bottom:1em;
-                box-sizing:border-box;
-                width: 33.333%;
-                margin:0 auto;
-                float: left;
                
+                width: 45%;
+                margin-left:2%;
+                margin-right: 2%;
+                margin-bottom:1em;
+                float: left;
                     img{
                         width: 100%;
                        
                     }
             }
+           
     }//closing img_wrapper
+
+    .project_design{
+        h2{
+            padding-bottom: 1em;
+            margin:2%;
+            padding-top:2em;
+        }
+            p{
+                line-height: $base-line-height;
+                margin:2%;
+                padding-bottom: 1em;
+
+                span{
+                    font-weight: 800;
+                }
+            }
+
+        
+    }//closing .project_design
+    .design_img{
+        overflow: hidden;
+        .img_wrapper_design{
+            box-sizing:border-box;
+            overflow: hidden;
+            width: 33.333%;
+            float: left;
+            margin:0 auto;
+
+            img{
+                width: 100%;
+               
+            }
+        }
+    }
 } //closing .outdoors_wrapper
 
 
 
 @media(min-width:650px){
-    .outdoors_about{
+    .project_wrapper{
+    .project_about{
+        
         h2{
             width: 80%;
             margin:0 auto;
@@ -112,6 +127,53 @@
         }
 
     }
+
+     .project_research{
+        padding-top:2em;
+        overflow: hidden;
+        background-color: $background-color;
+        margin-left:5em;
+        margin:0 auto;
+       
+            h2{
+                padding-bottom: 1em;
+                margin:2%;
+                margin-top:2em;
+            }
+            p{
+                line-height: $base-line-height;
+                margin:2%;
+                padding-bottom: 1em;
+
+                span{
+                    font-weight: 800;
+                }
+            }
+
+    }//closing outdoors_swot
+
+    .img_wrapper{
+          background-color: $background-color;
+
+          
+
+            .research_img{
+      
+                box-sizing:border-box;
+              
+                width: 75%;
+                margin:2%;
+               
+              
+                    img{
+                        width: 100%;
+                       
+                    }
+            }
+          
+
+    }
+    }//closing outdoors_wrapper
 
 }//closing media tag
 
