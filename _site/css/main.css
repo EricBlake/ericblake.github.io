@@ -655,6 +655,23 @@ th {
   .about_wrapper p {
     line-height: 1.75em;
     font-family: "lucida grande", Helvetica, Arial, sans-serif; }
+  .about_wrapper .about_interests {
+    padding-top: 2em;
+    overflow: hidden; }
+    .about_wrapper .about_interests h2 {
+      width: 50%;
+      margin: 0 auto; }
+    .about_wrapper .about_interests ul {
+      list-style: none;
+      width: 100%; }
+      .about_wrapper .about_interests ul li {
+        width: 50%;
+        margin: 0 auto;
+        line-height: 1.5; }
+    .about_wrapper .about_interests .skills {
+      overflow: hidden; }
+      .about_wrapper .about_interests .skills ul {
+        display: inline-block; }
 
 @media (min-width: 650px) {
   .about_wrapper {
