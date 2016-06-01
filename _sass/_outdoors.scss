@@ -1,26 +1,161 @@
 .outdoors_wrapper {
 	font-family:$body_font;
     .row {
+
+        h1{
+                
+                text-align:center;
+                padding-bottom: 2em;
+            }
         .col {
-        	h1{
-        		
-        		text-align:center;
-        	}
+
         	.outdoors_about{
         		margin:2%;
+
+                h2{
+                    padding-bottom:1em;
+                    
+                }
+
+                p{
+                    line-height: $base-line-height;
+                    padding-bottom: 1em;
+                }   
         		
 
         		}//closing outdoors_about
-        	.outdoors_img{
-        		width: 75%;
-        		img{
-        			width: 100%;
+        
 
-
-
-        			}//closing img tag
-
-        		}//closing outdoors img
+          
         }//closing col tag
     } //closing row tag
+
+
+
+    .outdoors_swot{
+        padding-top:2em;
+        overflow: hidden;
+        background-color: #D3DFEA;
+       
+            h2{
+                padding-bottom: 1em;
+                margin:2%;
+                
+            }
+            p{
+                line-height: $base-line-height;
+                margin:2%;
+                padding-bottom: 1em;
+
+                span{
+                    font-weight: 800;
+                }
+            }
+
+    }//closing outdoors_swot
+    .img_wrapper{
+        overflow: hidden;
+        background-color: #D3DFEA;
+        padding-bottom:1em;
+
+            .swot_img{
+                box-sizing:border-box;
+                width: 33.333%;
+                margin:0 auto;
+                float: left;
+                margin-bottom:1em;
+                img{
+                    width: 100%;
+                    
+                }
+            }//closing swot_img
+
+            .personas_img{
+      
+                box-sizing:border-box;
+                margin:0.5em;
+                width: 33.333%;
+                margin:0 auto;
+                margin-bottom:1em;
+                float: left;
+                    img{
+                        width: 100%;
+                       
+                    }
+            }
+            .user_img{
+                margin-bottom:1em;
+                box-sizing:border-box;
+                width: 33.333%;
+                margin:0 auto;
+                float: left;
+               
+                    img{
+                        width: 100%;
+                       
+                    }
+            }
+    }//closing img_wrapper
 } //closing .outdoors_wrapper
+
+
+
+@media(min-width:650px){
+    .outdoors_about{
+        h2{
+            width: 80%;
+            margin:0 auto;
+        }
+        p{
+            width: 80%;
+            margin:0 auto;
+        }
+
+    }
+
+}//closing media tag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
