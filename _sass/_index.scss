@@ -40,12 +40,7 @@ body {
             font-family: $body-font;
             color: $font_color;
         }
-        p {
-            font-family: $body-font;
-            line-height: 1.75em;
-            color: $font_color;
-            width: 100%;
-        }
+        
          * {
   -webkit-animation: fadein 5s;
   -moz-animation: fadein 5s;
@@ -70,51 +65,38 @@ body {
     margin: 2%;
     line-height: 1.75em;
     font-family: $body-font;
-    div {
-        margin-bottom: 1em;
-    }
+    
 }
 
 //-------------------------------------------------BREAKPOINT--------------------------
 @media (min-width: 650px) {
     .main_wrapper {
-        p {
-            width: 60%;
-            margin: 0 auto;
-            line-height: 1.75em;
-            margin-bottom: 2em;
-            overflow: hidden;
-        }
+       
         .main_img {
             margin: 0 auto;
             text-align: center;
             padding: 2%;
-            float: left;
-            width: 30%;
+          
+            width: 50%;
             box-sizing: border-box;
             img {
-                width: 100%;
+                width: 60%;
                 margin: 0 auto;
                 box-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
             }
         }
         .main_content {
-            margin: 2%;
-            float: left;
+            margin: 0 auto;
+        
             box-sizing: border-box;
-            width: 60%;
+            width: 50%;
             h1 {
                 text-align: center;
                 font-family: $body-font;
                 color: $font_color;
                 margin-top: 0;
             }
-            p {
-                font-family: $body-font;
-                line-height: 1.75em;
-                color: $font_color;
-                margin: 0 auto;
-            }
+           
         }
     } //closing main wrapper tag//
 } //end media tag

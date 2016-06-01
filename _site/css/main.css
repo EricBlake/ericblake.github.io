@@ -128,11 +128,6 @@ body {
       text-align: center;
       font-family: "lucida grande", Helvetica, Arial, sans-serif;
       color: #494943; }
-    .main_wrapper .main_content p {
-      font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      line-height: 1.75em;
-      color: #494943;
-      width: 100%; }
     .main_wrapper .main_content * {
       -webkit-animation: fadein 5s;
       -moz-animation: fadein 5s;
@@ -156,42 +151,27 @@ body {
   margin: 2%;
   line-height: 1.75em;
   font-family: "lucida grande", Helvetica, Arial, sans-serif; }
-  .post_wrapper div {
-    margin-bottom: 1em; }
 
 @media (min-width: 650px) {
-  .main_wrapper p {
-    width: 60%;
-    margin: 0 auto;
-    line-height: 1.75em;
-    margin-bottom: 2em;
-    overflow: hidden; }
   .main_wrapper .main_img {
     margin: 0 auto;
     text-align: center;
     padding: 2%;
-    float: left;
-    width: 30%;
+    width: 50%;
     box-sizing: border-box; }
     .main_wrapper .main_img img {
-      width: 100%;
+      width: 60%;
       margin: 0 auto;
       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
   .main_wrapper .main_content {
-    margin: 2%;
-    float: left;
+    margin: 0 auto;
     box-sizing: border-box;
-    width: 60%; }
+    width: 50%; }
     .main_wrapper .main_content h1 {
       text-align: center;
       font-family: "lucida grande", Helvetica, Arial, sans-serif;
       color: #494943;
-      margin-top: 0; }
-    .main_wrapper .main_content p {
-      font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      line-height: 1.75em;
-      color: #494943;
-      margin: 0 auto; } }
+      margin-top: 0; } }
 /**
  * Site header
  */
@@ -232,13 +212,16 @@ body {
     font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif;
     color: #F7F4F3;
     margin: 5px;
-    padding-right: 0.75em; }
+    padding-right: 0.75em;
+    font-size: 12px; }
   .site-nav a:hover {
     color: #C44536; }
-  .site-nav .menu-icon {
-    display: none; }
   .site-nav .page-link:not(:last-child) {
     margin-right: 20px; }
+  .site-nav .toggle {
+    color: #F7F4F3;
+    display: inline;
+    margin-right: 1em; }
 
 .site-footer {
   background-color: #0E1011;
@@ -282,6 +265,58 @@ body {
 .wrapper:after {
   /* .push must be the same height as footer */ }
 
+.active {
+  display: block; }
+
+.toggle {
+  display: inline-block;
+  vertical-align: middle; }
+  .toggle img {
+    width: 25px; }
+  .toggle .fa:hover {
+    cursor: pointer; }
+
+ul.content {
+  display: none;
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  padding: 0; }
+  ul.content li {
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0 auto; }
+    ul.content li a {
+      text-decoration: none;
+      font-family: "lucida grande", Helvetica, Arial, sans-serif;
+      color: #494943;
+      font-weight: bold;
+      padding: 1em;
+      line-height: 2em;
+      border-width: 90%; }
+  ul.content li:last-child {
+    border-bottom: none; }
+
+@media (min-width: 650px) {
+  .site-nav {
+    float: right;
+    line-height: 56px; }
+    .site-nav a {
+      font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif;
+      color: #F7F4F3;
+      margin: 5px;
+      padding-right: 0.75em;
+      font-size: 16px; }
+    .site-nav a:hover {
+      color: #C44536; }
+    .site-nav .page-link:not(:last-child) {
+      margin-right: 20px; }
+    .site-nav .toggle {
+      color: #F7F4F3;
+      display: inline;
+      margin-right: 1em; } }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -762,24 +797,25 @@ th {
   margin: 2%; }
   .blog h1 {
     font-family: "lucida grande", Helvetica, Arial, sans-serif;
-    color: #0A3C78;
     text-align: center; }
   .blog .post-list {
     list-style: none;
     display: inline;
     text-align: center; }
-    .blog .post-list li h2 a {
-      font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      background-color: #b4b7b2;
-      padding: 0.5em;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
-      border-radius: 10px;
-      -khtml-border-radius: 10px;
-      font-size: 16px;
-      color: #231F20; }
-    .blog .post-list li h2 a:hover {
-      color: #C44536; }
+    .blog .post-list li {
+      margin-bottom: 1em; }
+      .blog .post-list li h2 a {
+        font-family: "lucida grande", Helvetica, Arial, sans-serif;
+        background-color: #b4b7b2;
+        padding: 0.5em;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        -khtml-border-radius: 5px;
+        font-size: 16px;
+        color: #231F20; }
+      .blog .post-list li h2 a:hover {
+        color: #C44536; }
   .blog .subscribe .rss-subscribe {
     text-align: center;
     color: #231F20; }
