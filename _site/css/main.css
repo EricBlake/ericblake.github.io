@@ -780,65 +780,93 @@ th {
     margin: 0 auto; }
     .post_wrapper div {
       margin-bottom: 1em; } }
-.outdoors_wrapper {
+.project_wrapper {
   font-family: "lucida grande", Helvetica, Arial, sans-serif; }
-  .outdoors_wrapper .row h1 {
+  .project_wrapper .row h1 {
     text-align: center;
     padding-bottom: 2em; }
-  .outdoors_wrapper .row .col .outdoors_about {
+  .project_wrapper .row .col .project_about {
     margin: 2%; }
-    .outdoors_wrapper .row .col .outdoors_about h2 {
+    .project_wrapper .row .col .project_about h2 {
       padding-bottom: 1em; }
-    .outdoors_wrapper .row .col .outdoors_about p {
+    .project_wrapper .row .col .project_about p {
       line-height: 1.5;
       padding-bottom: 1em; }
-  .outdoors_wrapper .outdoors_swot {
+  .project_wrapper .project_research {
     padding-top: 2em;
     overflow: hidden;
     background-color: #D3DFEA; }
-    .outdoors_wrapper .outdoors_swot h2 {
+    .project_wrapper .project_research h2 {
       padding-bottom: 1em;
       margin: 2%; }
-    .outdoors_wrapper .outdoors_swot p {
+    .project_wrapper .project_research p {
       line-height: 1.5;
       margin: 2%;
       padding-bottom: 1em; }
-      .outdoors_wrapper .outdoors_swot p span {
+      .project_wrapper .project_research p span {
         font-weight: 800; }
-  .outdoors_wrapper .img_wrapper {
+  .project_wrapper .img_wrapper {
     overflow: hidden;
     background-color: #D3DFEA;
     padding-bottom: 1em; }
-    .outdoors_wrapper .img_wrapper .swot_img {
+    .project_wrapper .img_wrapper .research_img {
       box-sizing: border-box;
+      width: 45%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 1em;
+      float: left; }
+      .project_wrapper .img_wrapper .research_img img {
+        width: 100%; }
+  .project_wrapper .project_design h2 {
+    padding-bottom: 1em;
+    margin: 2%;
+    padding-top: 2em; }
+  .project_wrapper .project_design p {
+    line-height: 1.5;
+    margin: 2%;
+    padding-bottom: 1em; }
+    .project_wrapper .project_design p span {
+      font-weight: 800; }
+  .project_wrapper .design_img {
+    overflow: hidden; }
+    .project_wrapper .design_img .img_wrapper_design {
+      box-sizing: border-box;
+      overflow: hidden;
       width: 33.333%;
-      margin: 0 auto;
       float: left;
-      margin-bottom: 1em; }
-      .outdoors_wrapper .img_wrapper .swot_img img {
-        width: 100%; }
-    .outdoors_wrapper .img_wrapper .personas_img {
-      box-sizing: border-box;
-      margin: 0.5em;
-      width: 33.333%;
-      margin: 0 auto;
-      margin-bottom: 1em;
-      float: left; }
-      .outdoors_wrapper .img_wrapper .personas_img img {
-        width: 100%; }
-    .outdoors_wrapper .img_wrapper .user_img {
-      margin-bottom: 1em;
-      box-sizing: border-box;
-      width: 33.333%;
-      margin: 0 auto;
-      float: left; }
-      .outdoors_wrapper .img_wrapper .user_img img {
+      margin: 0 auto; }
+      .project_wrapper .design_img .img_wrapper_design img {
         width: 100%; }
 
 @media (min-width: 650px) {
-  .outdoors_about h2 {
+  .project_wrapper .project_about h2 {
     width: 80%;
     margin: 0 auto; }
-  .outdoors_about p {
+  .project_wrapper .project_about p {
     width: 80%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .project_wrapper .project_research {
+    padding-top: 2em;
+    overflow: hidden;
+    background-color: #F7F4F3;
+    margin-left: 5em;
+    margin: 0 auto; }
+    .project_wrapper .project_research h2 {
+      padding-bottom: 1em;
+      margin: 2%;
+      margin-top: 2em; }
+    .project_wrapper .project_research p {
+      line-height: 1.5;
+      margin: 2%;
+      padding-bottom: 1em; }
+      .project_wrapper .project_research p span {
+        font-weight: 800; }
+  .project_wrapper .img_wrapper {
+    background-color: #F7F4F3; }
+    .project_wrapper .img_wrapper .research_img {
+      box-sizing: border-box;
+      width: 75%;
+      margin: 2%; }
+      .project_wrapper .img_wrapper .research_img img {
+        width: 100%; } }
