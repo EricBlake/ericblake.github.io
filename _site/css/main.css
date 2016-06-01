@@ -782,11 +782,63 @@ th {
       margin-bottom: 1em; } }
 .outdoors_wrapper {
   font-family: "lucida grande", Helvetica, Arial, sans-serif; }
-  .outdoors_wrapper .row .col h1 {
-    text-align: center; }
+  .outdoors_wrapper .row h1 {
+    text-align: center;
+    padding-bottom: 2em; }
   .outdoors_wrapper .row .col .outdoors_about {
     margin: 2%; }
-  .outdoors_wrapper .row .col .outdoors_img {
-    width: 75%; }
-    .outdoors_wrapper .row .col .outdoors_img img {
-      width: 100%; }
+    .outdoors_wrapper .row .col .outdoors_about h2 {
+      padding-bottom: 1em; }
+    .outdoors_wrapper .row .col .outdoors_about p {
+      line-height: 1.5;
+      padding-bottom: 1em; }
+  .outdoors_wrapper .outdoors_swot {
+    padding-top: 2em;
+    overflow: hidden;
+    background-color: #D3DFEA; }
+    .outdoors_wrapper .outdoors_swot h2 {
+      padding-bottom: 1em;
+      margin: 2%; }
+    .outdoors_wrapper .outdoors_swot p {
+      line-height: 1.5;
+      margin: 2%;
+      padding-bottom: 1em; }
+      .outdoors_wrapper .outdoors_swot p span {
+        font-weight: 800; }
+  .outdoors_wrapper .img_wrapper {
+    overflow: hidden;
+    background-color: #D3DFEA;
+    padding-bottom: 1em; }
+    .outdoors_wrapper .img_wrapper .swot_img {
+      box-sizing: border-box;
+      width: 33.333%;
+      margin: 0 auto;
+      float: left;
+      margin-bottom: 1em; }
+      .outdoors_wrapper .img_wrapper .swot_img img {
+        width: 100%; }
+    .outdoors_wrapper .img_wrapper .personas_img {
+      box-sizing: border-box;
+      margin: 0.5em;
+      width: 33.333%;
+      margin: 0 auto;
+      margin-bottom: 1em;
+      float: left; }
+      .outdoors_wrapper .img_wrapper .personas_img img {
+        width: 100%; }
+    .outdoors_wrapper .img_wrapper .user_img {
+      margin-bottom: 1em;
+      box-sizing: border-box;
+      width: 33.333%;
+      margin: 0 auto;
+      float: left; }
+      .outdoors_wrapper .img_wrapper .user_img img {
+        width: 100%; }
+
+@media (min-width: 650px) {
+  .outdoors_about h2 {
+    width: 80%;
+    margin: 0 auto; }
+  .outdoors_about p {
+    width: 80%;
+    margin: 0 auto; } }
