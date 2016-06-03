@@ -125,11 +125,11 @@ body {
                 margin-top: 0;
             }
            
-        }//closing main_cont
+
         .home_btns{
     overflow: hidden;
     display: block;
-    width: 30%;
+    width: 50%;
     
     text-align: center;
     background-color:$color_black;
@@ -140,7 +140,7 @@ body {
     a{
       text-decoration:none;
        font-family: $body-font;
-       font-size: $base-font-size;
+       font-size: 20px;
        margin:2%;
        color: $background-color;
        
@@ -148,6 +148,7 @@ body {
 
     }
   }//closing .home_btns
+          }//closing main_cont
     } //closing main wrapper tag//
 } //end media tag
 
