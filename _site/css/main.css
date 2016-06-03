@@ -104,9 +104,9 @@ body {
       margin: 0 auto;
       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
     .main_wrapper .main_img * {
-      -webkit-animation: fadein 4s;
-      -moz-animation: fadein 4s;
-      animation: fadein 4s; }
+      -webkit-animation: fadein 3s;
+      -moz-animation: fadein 3s;
+      animation: fadein 3s; }
 @-webkit-keyframes fadein {
   from {
     opacity: 0; }
@@ -129,9 +129,9 @@ body {
       font-family: "lucida grande", Helvetica, Arial, sans-serif;
       color: #494943; }
     .main_wrapper .main_content * {
-      -webkit-animation: fadein 5s;
-      -moz-animation: fadein 5s;
-      animation: fadein 5s; }
+      -webkit-animation: fadein 3s;
+      -moz-animation: fadein 3s;
+      animation: fadein 3s; }
 @-webkit-keyframes fadein {
   from {
     opacity: 0; }
@@ -147,6 +147,24 @@ body {
     opacity: 0; }
   to {
     opacity: 1; } }
+    .main_wrapper .main_content .home_btns {
+      overflow: hidden;
+      display: block;
+      width: 50%;
+      text-align: center;
+      background-color: #0E1011;
+      border-radius: 5px;
+      padding: 1em;
+      margin: 1em auto; }
+      .main_wrapper .main_content .home_btns a {
+        text-decoration: none;
+        font-family: "lucida grande", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        margin: 2%;
+        color: #F7F4F3; }
+    .main_wrapper .main_content .home_btns:hover {
+      background-color: #0A3C78; }
+
 .post_wrapper {
   margin: 2%;
   line-height: 1.75em;
@@ -171,7 +189,22 @@ body {
       text-align: center;
       font-family: "lucida grande", Helvetica, Arial, sans-serif;
       color: #494943;
-      margin-top: 0; } }
+      margin-top: 0; }
+  .main_wrapper .home_btns {
+    overflow: hidden;
+    display: block;
+    width: 30%;
+    text-align: center;
+    background-color: #0E1011;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em auto; }
+    .main_wrapper .home_btns a {
+      text-decoration: none;
+      font-family: "lucida grande", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      margin: 2%;
+      color: #F7F4F3; } }
 /**
  * Site header
  */
