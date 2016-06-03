@@ -190,21 +190,21 @@ body {
       font-family: "lucida grande", Helvetica, Arial, sans-serif;
       color: #494943;
       margin-top: 0; }
-  .main_wrapper .home_btns {
-    overflow: hidden;
-    display: block;
-    width: 30%;
-    text-align: center;
-    background-color: #0E1011;
-    border-radius: 5px;
-    padding: 1em;
-    margin: 1em auto; }
-    .main_wrapper .home_btns a {
-      text-decoration: none;
-      font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      font-size: 16px;
-      margin: 2%;
-      color: #F7F4F3; } }
+    .main_wrapper .main_content .home_btns {
+      overflow: hidden;
+      display: block;
+      width: 50%;
+      text-align: center;
+      background-color: #0E1011;
+      border-radius: 5px;
+      padding: 1em;
+      margin: 1em auto; }
+      .main_wrapper .main_content .home_btns a {
+        text-decoration: none;
+        font-family: "lucida grande", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        margin: 2%;
+        color: #F7F4F3; } }
 /**
  * Site header
  */
@@ -286,7 +286,7 @@ body {
   height: 100%; }
 
 .page-content {
-  min-height: 100%;
+  min-height: 85%;
   /* equal to footer height */
   margin-bottom: -142px; }
 
@@ -708,21 +708,20 @@ th {
 .about_wrapper {
   margin: 2%; }
   .about_wrapper .about_me_img {
-    margin: 0 auto;
-    text-align: center;
-    min-height: 225px;
-    min-width: 175px; }
+    width: 70%;
+    margin: 0 auto; }
     .about_wrapper .about_me_img img {
-      height: 30%;
-      width: 20%;
-      margin: 0 auto;
-      min-height: 225px;
-      min-width: 175px; }
+      width: 100%; }
   .about_wrapper h2 {
-    font-family: "lucida grande", Helvetica, Arial, sans-serif; }
+    font-family: "lucida grande", Helvetica, Arial, sans-serif;
+    padding: 1em 0 1em 0; }
   .about_wrapper p {
     line-height: 1.75em;
-    font-family: "lucida grande", Helvetica, Arial, sans-serif; }
+    font-family: "lucida grande", Helvetica, Arial, sans-serif;
+    margin-bottom: 1em; }
+    .about_wrapper p a {
+      text-decoration: none;
+      color: #C44536; }
   .about_wrapper .about_interests {
     padding-top: 2em;
     overflow: hidden; }
@@ -741,30 +740,29 @@ th {
       .about_wrapper .about_interests .skills ul {
         display: inline-block; }
 
-@media (min-width: 650px) {
+@media (min-width: 750px) {
   .about_wrapper {
     overflow: hidden;
     box-sizing: border-box;
     margin: 2%; }
+    .about_wrapper h2 {
+      padding: 0 0 1em 0; }
     .about_wrapper .about_me_img {
-      height: 400px;
-      width: 40%;
-      min-width: 300px;
-      overflow: hidden;
-      display: inline-block; }
+      width: 30%;
+      margin: 0 auto;
+      float: left; }
       .about_wrapper .about_me_img img {
-        height: 30%;
-        width: 20%;
-        margin: 0 auto;
-        min-height: 400px;
-        min-width: 300px; }
+        width: 100%; }
     .about_wrapper .about_body {
-      width: 40%;
+      float: left;
+      width: 50%;
       display: inline-block;
       margin: 0 auto;
       margin-left: 2em; }
       .about_wrapper .about_body p {
-        line-height: 1.75em; } }
+        line-height: 1.75em; }
+    .about_wrapper .about_interests {
+      clear: both; } }
 .work_wrapper {
   font-family: "lucida grande", Helvetica, Arial, sans-serif; }
   .work_wrapper .row .col h2 {
@@ -778,7 +776,9 @@ th {
     .work_wrapper .row .col .project a {
       text-decoration: none;
       color: #C44536;
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+      -webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: #F7F4F3; }
       .work_wrapper .row .col .project a .img_cont {
         width: 100%;
         margin: 0 auto; }
@@ -804,7 +804,9 @@ th {
         text-decoration: none;
         color: transparent;
         font-size: 25px;
-        text-shadow: none; }
+        text-shadow: none;
+        -webkit-text-stroke-width: 0px;
+        -webkit-text-stroke-color: #F7F4F3; }
         .work_wrapper .row .col .project a .img_cont {
           width: 100%;
           margin: 0 auto; }
@@ -821,7 +823,9 @@ th {
             text-align: center; }
       .work_wrapper .row .col .project a:hover {
         color: #5995ED;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25); }
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #F7F4F3; }
         .work_wrapper .row .col .project a:hover .img_cont h3 {
           -webkit-animation: fadein 2s;
           -moz-animation: fadein 2s;

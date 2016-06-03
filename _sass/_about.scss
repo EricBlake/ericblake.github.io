@@ -2,28 +2,34 @@
     margin: 2%;
    
     .about_me_img {
-        margin: 0 auto;
-        text-align: center;
-        min-height: 225px;
-        min-width: 175px;
+        width: 70%;
+        margin:0 auto;
+        
         img {
-            height: 30%;
-            width: 20%;
-            margin: 0 auto;
-            min-height: 225px;
-            min-width: 175px;
+            width: 100%;
+           
         }
     }
     h2 {
         font-family: $body-font;
+        padding: 1em 0 1em 0;
+
+
     }
     p {
         line-height: 1.75em;
         font-family: $body-font;
+        margin-bottom: 1em;
+
+        a{
+            text-decoration: none;
+            color:$button-color;
+        }
     }
 
 
     .about_interests{
+
         padding-top: 2em;
         overflow: hidden;
     
@@ -44,6 +50,7 @@
 
             }
             .skills{
+
                 overflow: hidden;
                 ul{
                     display: inline-block;
@@ -61,35 +68,40 @@
 
 
 
-@media (min-width: 650px) {
+@media (min-width: 750px) {
     .about_wrapper {
         overflow: hidden;
         box-sizing: border-box;
         margin: 2%;
+
+        h2{
+            padding: 0 0 1em 0;
+        }
         
        
         .about_me_img {
-            height: 400px;
-            width: 40%;
-            min-width: 300px;
-            overflow: hidden;
-            display: inline-block;
+            width: 30%;
+            margin:0 auto;
+            float:left;
+           
             img {
-                height: 30%;
-                width: 20%;
-                margin: 0 auto;
-                min-height: 400px;
-                min-width: 300px;
+                width: 100%;
+               
             }
         }
+
         .about_body {
-            width: 40%;
+            float:left;
+            width: 50%;
             display: inline-block;
             margin: 0 auto;
             margin-left: 2em;
             p {
                 line-height: 1.75em;
             }
+        }
+        .about_interests{
+            clear: both;
         }
 
     } //closing about_wrapper tag//
