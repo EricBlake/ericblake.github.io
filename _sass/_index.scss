@@ -16,9 +16,9 @@ body {
             box-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
         }
         * {
-  -webkit-animation: fadein 4s;
-  -moz-animation: fadein 4s;
-  animation: fadein 4s;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  animation: fadein 3s;
 }
 @-webkit-keyframes fadein {
   from { opacity:0; }
@@ -42,9 +42,9 @@ body {
         }
         
          * {
-  -webkit-animation: fadein 5s;
-  -moz-animation: fadein 5s;
-  animation: fadein 5s;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  animation: fadein 3s;
 }
 @-webkit-keyframes fadein {
   from { opacity:0; }
@@ -58,7 +58,35 @@ body {
   from { opacity:0; }
   to { opacity:1; }
 }
+
+  .home_btns{
+    overflow: hidden;
+    display: block;
+    width: 50%;
+    
+    text-align: center;
+    background-color:$color_black;
+    border-radius:5px;
+    padding:1em;
+    margin:1em auto;
+   
+    a{
+      text-decoration:none;
+       font-family: $body-font;
+       font-size: $base-font-size;
+       margin:2%;
+       color: $background-color;
+       
+
+
     }
+  }//closing .home_btns
+  .home_btns:hover{
+    background-color:$brand-color;
+  }
+
+
+    }//closing main_content
 } //closing wrapper tag//
 //-------------------------------------------------group project--------------------------
 .post_wrapper {
@@ -97,7 +125,29 @@ body {
                 margin-top: 0;
             }
            
-        }
+        }//closing main_cont
+        .home_btns{
+    overflow: hidden;
+    display: block;
+    width: 30%;
+    
+    text-align: center;
+    background-color:$color_black;
+    border-radius:5px;
+    padding:1em;
+    margin:1em auto;
+   
+    a{
+      text-decoration:none;
+       font-family: $body-font;
+       font-size: $base-font-size;
+       margin:2%;
+       color: $background-color;
+       
+
+
+    }
+  }//closing .home_btns
     } //closing main wrapper tag//
 } //end media tag
 
