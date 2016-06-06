@@ -894,6 +894,9 @@ th {
       color: #0A3C78; }
     .blog .subscribe .rss-subscribe a:hover {
       color: #C44536; }
+  .blog .post_wrapper h2 {
+    width: 60%;
+    margin: 0 auto; }
 
 @media (min-width: 650px) {
   .post_wrapper {
