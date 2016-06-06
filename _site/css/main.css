@@ -260,21 +260,26 @@ body {
   background-color: #0E1011;
   margin-top: 10em;
   overflow: hidden;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 1em; }
   .site-footer .footer_wrapper p {
     text-align: center;
     color: #F7F4F3;
     font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif; }
   .site-footer .footer_wrapper ul {
-    list-style: none; }
+    list-style: none;
+    text-align: center;
+    margin: 0 auto; }
     .site-footer .footer_wrapper ul li {
       color: #F7F4F3;
       text-align: center;
       padding-bottom: 5px;
-      font-family: "lucida grande", Helvetica, Arial, sans-serif; }
+      font-family: "lucida grande", Helvetica, Arial, sans-serif;
+      display: inline; }
       .site-footer .footer_wrapper ul li a {
         color: #C44536;
-        padding-left: 0.5em; }
+        padding: 1em;
+        font-size: 2em; }
       .site-footer .footer_wrapper ul li a:hover {
         text-decoration: underline; }
 

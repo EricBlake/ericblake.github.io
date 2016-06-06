@@ -76,6 +76,7 @@
     margin-top: 10em;
     overflow: hidden;
     margin-bottom: 0;
+    padding:1em;
     .footer_wrapper {
         p {
             text-align: center;
@@ -84,14 +85,20 @@
         }
         ul {
             list-style: none;
+            text-align: center;
+            margin:0 auto;
             li {
                 color: $background-color;
                 text-align: center;
                 padding-bottom: 5px;
                 font-family: $body-font;
+                display: inline;
+
                 a {
                     color: $button-color;
-                    padding-left: 0.5em;
+                    padding:1em;
+                    font-size: 2em;
+
                 }
                 a:hover {
                     text-decoration: underline;
