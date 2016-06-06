@@ -261,7 +261,7 @@ body {
   margin-top: 10em;
   overflow: hidden;
   margin-bottom: 0;
-  padding: 1em; }
+  padding: 0.5em; }
   .site-footer .footer_wrapper p {
     text-align: center;
     color: #F7F4F3;
@@ -275,11 +275,12 @@ body {
       text-align: center;
       padding-bottom: 5px;
       font-family: "lucida grande", Helvetica, Arial, sans-serif;
-      display: inline; }
+      display: inline;
+      width: 50%; }
       .site-footer .footer_wrapper ul li a {
         color: #C44536;
         padding: 1em;
-        font-size: 2em; }
+        font-size: 1em; }
       .site-footer .footer_wrapper ul li a:hover {
         text-decoration: underline; }
 
@@ -354,7 +355,35 @@ ul.content {
     .site-nav .toggle {
       color: #F7F4F3;
       display: inline;
-      margin-right: 1em; } }
+      margin-right: 1em; }
+
+  .site-footer {
+    background-color: #0E1011;
+    margin-top: 10em;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding: 0.5em; }
+    .site-footer .footer_wrapper p {
+      text-align: center;
+      color: #F7F4F3;
+      font-family: "trajan-sans-pro", Helvetica, Arial, sans-serif; }
+    .site-footer .footer_wrapper ul {
+      list-style: none;
+      text-align: center;
+      margin: 0 auto; }
+      .site-footer .footer_wrapper ul li {
+        color: #F7F4F3;
+        text-align: center;
+        padding-bottom: 5px;
+        font-family: "lucida grande", Helvetica, Arial, sans-serif;
+        display: inline;
+        width: 25%; }
+        .site-footer .footer_wrapper ul li a {
+          color: #C44536;
+          padding: 1em;
+          font-size: 2em; }
+        .site-footer .footer_wrapper ul li a:hover {
+          text-decoration: underline; } }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
