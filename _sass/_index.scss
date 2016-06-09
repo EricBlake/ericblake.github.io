@@ -59,6 +59,9 @@ body {
   to { opacity:1; }
 }
 
+  a{
+    text-decoration: none;
+
   .home_btns{
     overflow: hidden;
     display: block;
@@ -69,6 +72,7 @@ body {
     border-radius:5px;
     padding:1em;
     margin:1em auto;
+
    
     span{
       text-decoration:none;
@@ -81,6 +85,7 @@ body {
 
     }
   }//closing .home_btns
+}
   .home_btns:hover{
     background-color:$brand-color;
   }
@@ -128,11 +133,11 @@ body {
                 margin-top: 0;
             }
            
-
+a{
         .home_btns{
     overflow: hidden;
     display: block;
-    width: 30%;
+    width: 31.333%;
     margin: 1%;
     float: left;
    
@@ -154,6 +159,7 @@ body {
 
     }
   }//closing .home_btns
+}
           }//closing main_cont
     } //closing main wrapper tag//
 } //end media tag
