@@ -870,11 +870,11 @@ th {
         -webkit-text-stroke-width: 0.5px;
         -webkit-text-stroke-color: #F7F4F3; }
         .work_wrapper .row .col .project a:hover .img_cont img {
-          -webkit-filter: grayscale(100%);
-          -moz-filter: grayscale(100%);
-          -o-filter: grayscale(100%);
-          -ms-filter: grayscale(100%);
-          filter: grayscale(100%); }
+          -webkit-filter: grayscale(70%);
+          -moz-filter: grayscale(70%);
+          -o-filter: grayscale(70%);
+          -ms-filter: grayscale(70%);
+          filter: grayscale(70%); }
         .work_wrapper .row .col .project a:hover .img_cont h3 {
           -webkit-animation: fadein 2s;
           -moz-animation: fadein 2s;
