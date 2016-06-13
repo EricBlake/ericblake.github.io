@@ -23,7 +23,15 @@ $button-color:#C44536;
 $grey-color:#b4b7b2;
 $color_black:#0E1011;
 
-
+$movie_main_theme: #CB3439;
+$movie_body_background1:#F5F5F5;
+$movie_body_background2: #CCCCCB;
+$novie_font_color:#282929;
+$movie_font_hover:#2274A5;
+$movie_button_text:#ffffff;
+$movie_button_border:#292828;
+$movie_header_font:'Monoton', Helvetica;
+$movie_body_font: 'Ubuntu', sans-serif;
 
 
 // Width of the content area
@@ -117,7 +125,8 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
         "work",
         "blog",
         "outdoors",
-        "mobile";
+        "mobile",
+        "movie";
     
 
 
