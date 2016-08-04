@@ -1,0 +1,189 @@
+
+
+<!DOCTYPE html>
+<html>
+
+  <!--This include tag adds /_includes/head.html to every page that has layout: default in the front matter -->
+
+  {% include head1.html %}
+
+  <body>
+    
+    <!--This include tag adds /_includes/header.html to every page that has layout: default in the front matter -->
+    {% include header.html %}
+
+      <div class="wrapper">
+        <!--Any content underneath the front matter in a page that has layout: default will be inserted here-->
+        {{ content }}
+
+        
+
+
+        <!--NAV BAR BEGINNING-->
+      <div class="nav_wrapper">  
+        <div class="row">
+          <div class="col col-12">
+            <div class="navbar">
+              <ul>
+                <li><h2><a href="#">Home</a></h2></li>
+                <li><h2><a href="#">Profile</a></h2></li>
+                <li><h2><a href="#">Find Connections</a></h2></li>
+                <li><h2><a href="#">Interests</a></h2></li>
+              </ul>
+            </div><!--END OF NAVBAR-->
+          
+
+              <!-- BEGIN USER PROFILE SECTION-->
+          
+            <div class="user_profile">
+              <div class="img_specs">
+                  <div class="user_img">
+                  </div>
+                  <p><a href="#">756</a> Connections</p>
+                  <p><a href="#">65</a> Groups</p>
+              </div>
+            </div>
+
+            <div class="user_profile">
+              <div class="user_about"> 
+                    <h1><a href="#">Eric Blake</a></h1>
+                    <h2>Design Guru - <a href="#">The Iron Yard-Austin</a></h2>
+                    <p>LinkedIn Member Since 2010</p>
+                    <p>Coorporate Recruiter Since 1995</p>
+              </div>
+            </div>
+            <div class="user_profile">
+              <div class="buttons">
+                  <div class="view_profile">
+                       <h3><a href="#">View Full Profile</a></h3>
+                  </div>
+                  <div class="upgrade_button">
+                       <h3><a href="#">Upgrade to Premium</a></h3>
+                  </div>
+              </div>
+            </div>
+                <!-- END USER PROFILE SECTION-->
+              <div style="clear:both"></div>
+          </div><!--END OF COL 12-->
+            
+        </div><!--END OF ROW-->
+      </div>
+        <!--END OF NAV BAR-->
+
+        <!--BEGIN PEOPLE YOU MAY KNOW SECTION-->
+
+        <div class="row">
+          <div class="col col-12">
+            <div class="people">
+                  <div class="people_headings">
+                  <h3>People You May Know</h3>
+                  <h3><a href="#">Find Connections</a></h3>
+                  </div>
+                
+              <div class="profiles">
+
+               <div class="profiles1">
+                  <div class="picture1"></div>
+                  <p><a href="#">Austin Bradshaw</a></p>
+                  <p>Specialist at Carlisle & Gallagher Consulting Group, Inc</p>
+                  <div class="add_btn"><a href="#">Add</a></div>
+                </div>
+
+                <div class="profiles2">
+                  <div class="picture2"></div>
+                  <p><a href="#">Allison Armstrong</a></p>
+                  <p>Accounting Analyst at Vanguard Natural Resources, LLC</p>
+                  <div class="add_btn"><a href="#">Add</a></div>
+                </div>
+                
+                <div class="profiles3">
+                  <div class="picture3"></div>
+                  <p><a href="#">Torrey Pinkerton</a></p>
+                  <p>Senior Loan Officer at Supreme Lending</p>
+                   <div class="add_btn"><a href="#">Add</a></div>
+                </div>
+            
+                <div class="profiles4">
+                  <div class="picture4"></div>
+                  <p><a href="#">Mallory Coon</a></p>
+                  <p>Reporter at KPRC-TV of Abeline</p>
+                  <div class="add_btn"><a href="#">Add</a></div>
+                </div>
+
+                <div class="profiles5">
+                  <div class="picture5"></div>
+                  <p><a href="#">Matthew Holloway</a></p>
+                  <p>Legal Assistant at Galveston County District Attorney</p>
+                  <div class="add_btn"><a href="#">Add</a></div>
+                </div>
+
+                <div class="profiles6">
+                  <div class="picture6"></div>
+                  <p><a href="#">Find People You May Know</a></p>
+                </div>
+              
+             
+                <div style="clear:both"></div>
+              
+            </div><!--END OF CLASS=PROFILES
+
+          </div><!-End of Class=People Tag-->
+          
+        </div><!--End of Col 12 Tag-->
+      </div><!--End Of Row Tag-->
+     
+    
+
+
+
+        <!--BEGINNING OF THE NEWS FEED-->
+
+        <div class="row">
+          <div class="col col 12">
+            <div class="newsfeed">
+
+                <div class="news_header">
+                  <h3><a href="#">Recent News</a></h3>
+                </div>
+                <div class="news_container">
+                  <div class="news_block">
+                    <h4><a href="#">Jenny Schroeder</a></h4> 
+                    <h5>Registered Representative at<a href="#"> NYLIFE Securities LLC</a></h5>
+                    <p>That’s right, New York Life does rollovers. Whether you are saving for retirement or ready for income, I would love to help.</p>
+                  </div>
+
+                  <div class="news_block">
+                    <h4><a href="#">Allison Armstrong</a></h4> 
+                    <h5>Accounting Analyst at<a href="#"> Vanguard Natural Resources, LLC</a></h5>
+                    <p>Has<a href="#"> 8 </a>new connections. Find out <a href="#">People who you may know.</a></p>
+                  </div>
+
+                  <div class="news_block">
+                    <h4><a href="#">Torrey Pinkerton</a></h4> 
+                    <h5>Senior Loan Officer at <a href="#"> Supreme Lending</a> shared:</h5>
+                    <p>Looking for two things, processor that understands encompass and that can process 30 plus loans and also looking for a solid loan officer in New Mexico. Preferably my home town of Ruidoso . Inbox me if you know of anyone that can fulfill<a href="#">… show more</a></p>
+                  </div>
+
+               
+
+               </div><!--END OF NEWS_CONTAINER-->
+            </div><!--end of newsfeed tag-->
+          </div><!--end of col tag-->
+        </div><!--end of row tag-->
+
+
+
+
+        <!--END PEOPLE YOU MAY KNOW SECTION-->
+
+
+      </div><!--End of Wrapper Tag-->
+
+   
+  </div>
+    <!--This include tag adds /_includes/footer.html to every page that has layout: default in the front matter -->
+    {% include footer.html %}
+
+  </body>
+
+</html>
