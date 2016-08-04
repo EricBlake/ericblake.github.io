@@ -1,0 +1,1424 @@
+$heading-font:'Merriweather', serif;
+$paragraph-font: 'Source Sans Pro', sans-serif;
+
+
+
+
+.site-header{
+	.banner{
+		padding:0em;
+			a{
+			font-family: $heading-font;
+			padding:1em;
+
+
+
+			}
+
+		h1{
+			font-size: 2.5em;
+			font-weight: 700;
+			line-height: 1.3em;
+			
+
+			
+			a{
+			font-family: $heading-font;
+			padding:1em;
+
+			}
+		}
+
+		.search_box{
+			p{
+				font-family: $paragraph-font;
+				line-height: 1.3em;
+				font-size: 1.25em;
+				
+			}
+		}
+
+		.search_icon{
+			
+			font-size: 1.563em;
+
+			a{
+				text-decoration: none;
+				
+			}
+
+		}
+	}
+}
+
+
+.wrapper{
+
+			//---------------TOP BANNER--------------------//
+
+
+	
+
+
+	//-------------------------------- NAV BAR------------------------------//
+
+	.row{
+
+		.col{
+
+			.navbar{
+				ul{
+					
+
+					li{
+						h2{
+							font-size: 1.2em;
+							a{
+								text-decoration: none;
+								font-family: $paragraph-font;
+
+
+							}
+						}
+
+					}
+
+
+				}
+
+
+
+
+			}	
+		}
+	}
+
+
+	//--------------------------PEOPLE YOU MAY KNOW---------------------------//
+
+	.people{
+			
+				h3:first-child{
+				font-style: $heading-font;
+				font-size: 1.250em;
+				}
+				h3:nth-child(2){
+					
+				}	
+
+			.profiles1{
+
+				.picture1{
+					
+				}
+				
+				
+
+				p{
+					font-size: 1.063em;
+					font-family: $paragraph-font;
+
+					a{
+						text-decoration: none;
+						font-size: 1.250em;
+					}
+				}
+				.add_btn{
+					a{
+						text-decoration: none;
+						font-family: $paragraph-font;
+					}
+				}
+			}
+
+
+			.profiles2{
+				.picture2{
+					
+				}
+
+				
+
+
+				p{
+					font-size: 1.063em;
+					font-family: $paragraph-font;
+					a{
+						text-decoration: none;
+						font-size: 1.250em;
+					}
+				}
+				.add_btn{
+					a{
+						text-decoration: none;
+						font-family: $paragraph-font;
+					}
+				}
+			}
+
+
+				
+			.profiles3{
+				.picture3{
+					
+				}
+
+				
+
+				
+				p{
+					font-size: 1.063em;
+					font-family: $paragraph-font;
+					a{
+						text-decoration: none;
+						font-size: 1.250em;
+					}
+				}
+				.add_btn{
+					a{
+						text-decoration: none;
+						font-family: $paragraph-font;
+					}
+				}
+			}
+
+
+
+			.profiles4{
+				.picture4{
+				}
+
+				
+				
+				p{
+					font-size: 1.063em;
+					font-family: $paragraph-font;
+					a{
+						text-decoration: none;
+						font-size: 1.250em;
+					}
+				}
+				.add_btn{
+					a{
+						text-decoration: none;
+						font-family: $paragraph-font;
+					}
+				}
+				.add_btn{
+					a{
+						text-decoration: none;
+						font-family: $paragraph-font;
+					}
+				}
+			}
+
+
+
+			.profiles5{
+				.picture5{
+				}
+
+				
+
+				
+				p{
+					font-size: 1.063em;
+					font-family: $paragraph-font;
+					a{
+						text-decoration: none;
+						font-size: 1.250em;
+					}
+				}
+				.add_btn{
+					a{
+						text-decoration: none;
+						font-family: $paragraph-font;
+					}
+				}
+			}
+		}
+
+}
+
+.newsfeed{
+	
+
+	.news_header{
+		
+	}
+
+
+	.news_container{
+		.news_block{
+			
+
+			h4{
+				font-size: 1.063em;
+				line-height: 1.3em;
+				font-weight: 700;
+				font-family: $heading-font;
+				
+			}
+
+			h5{
+				margin-top: 0.5em;
+				font-family: $paragraph-font;
+
+
+				a{
+					text-decoration: none;
+
+				}
+			}
+
+			p{
+				font-size: 1.063em;
+				line-height: 1.5em;
+				font-weight: 400;
+				font-family: $paragraph-font;
+			}
+		}
+
+	}
+
+
+}/////-------------closing tag for news feed------//
+
+
+
+
+
+
+
+ //-----------------------------END OF NEWS FEED-------------------------------------
+
+.footer{
+	margin: 0 auto;
+	padding: 2em;
+	ul{
+		width: 100%;
+		li{
+			width: 100%;
+			list-style: none;
+			display: inline;
+			margin: 1.5em auto;
+			text-align: center;
+
+
+			a{
+				text-decoration: none;
+				margin:1em auto;
+			}
+		}
+	}
+}
+
+
+
+
+
+//---------------------------------BREAKPOINT1---------------------------------------
+@media(min-width: 650px){
+		
+.col-8{
+	overflow:hidden;
+		
+		.user_profile{
+
+			
+			
+			
+			.img_specs{
+				p{
+					a{
+						text-decoration: none;
+						font-family: $paragraph-font;
+						line-height: 0em;
+
+					}
+				}
+				
+				
+			.user_img{
+
+				p{
+					font-family: $paragraph-font;
+					a{
+						text-decoration: none;
+						font-family: $paragraph-font;
+						line-height: 0.5em;
+					}
+				}
+					
+					
+			}
+			
+			}
+
+			.user_about{
+				margin-left: 0.5em;
+				h1{
+					margin-bottom: 0em;
+					a{
+						text-decoration: none;
+						font-family: $paragraph-font;
+						font-weight: 700;
+						line-height: 1em;
+					}
+				}
+				h2{
+					font-size: 1em;
+					font-family: $paragraph-font;
+					line-height: 1.3em;
+					margin-top: 0.5em;
+
+				}
+
+					p{
+						font-size: 1.063em;
+						line-height: 1.3em;
+						font-weight: 400;
+						font-family: $paragraph-font;
+					}
+					
+			}
+
+			.buttons{
+
+				
+				
+				.upgrade_button{
+					font-family: $paragraph-font;
+					font-weight: 700px;
+					text-decoration: none;
+
+					h3{
+
+						a{
+							font-family: $paragraph-font;
+							font-size: 1.250em;
+							text-align: center;
+							padding:0.2em;
+							min-width:100%;
+						}
+					}
+				
+				}	
+
+				.view_profile{
+					font-size: 1em;
+					text-decoration: none;
+					text-align: center;
+					padding:0.2em;
+					
+				}
+
+			}
+
+
+
+
+
+			}
+
+
+	}
+}
+
+//----------------------------------------END BREAK POINT 1
+
+
+
+
+
+
+
+
+
+//-----------------------------------------BEGIN BREAKPOINT 2
+
+@media(min-width: 1000px){
+
+
+
+
+
+}//---------------END MEDIA TAG
+
+//-----------------------------------------END BREAKPOINT 2
+
+
+
+
+$primary-background: #112e51;
+$secondary-background: #f1f1f1;
+$button-color:#0071bc;
+$section-headings:#02bfe7;
+
+
+
+$text-primary: #205493;
+$text-secondary: #ffffff;
+$text-tertiary: #aeb0b5;
+$base-color:#212121;
+
+
+
+
+//-----------------------------------------HEADER-------------------
+
+.site-header{
+	.banner{
+		background-color: $primary-background;
+	
+
+		h1{
+			a{
+			color:$text-secondary;
+			}
+		}
+
+		.search_box{
+			background-color:$secondary-background;
+			
+			p{
+				color: $text-tertiary;
+			}
+		}
+
+
+		.search_icon{
+
+
+			a{
+				
+				color:white;
+			}
+
+		}
+	}
+
+}
+
+.wrapper{
+	background-color:$secondary-background;
+	
+
+//----------------------- NAVBAR----------------------------
+.nav_wrapper{
+	border-bottom: 1px solid $base-color;
+	.row{
+
+		.col{
+
+			.navbar{
+				
+				ul{
+
+					
+					li{
+
+						background-color:$button-color;
+						border: 1px solid $base-color;
+						
+
+						h2{
+
+							a{
+								color:$text-secondary;	
+
+
+							}
+						}
+
+					}
+					li:hover{
+						background-color:$text-primary;
+					}
+
+
+				}
+
+
+
+
+			}	
+		}
+	}
+}	
+//-----------------------------PEOPLE YOU MAY KNOW------------------------
+		.people{
+
+			border-bottom: 1px solid $base-color;
+			background-color:#dce4ef;
+
+			.people_headings{
+			
+				h3:first-of-type{
+					color: $button-color;
+					width: fit-content;
+					
+
+
+				
+				}
+				h3:nth-child(2){
+						
+						width: fit-content;
+
+					a{
+						text-decoration: none;
+						color:$base-color;
+						border: 1px solid $base-color;
+						
+						background-color:$secondary-background;
+				}
+
+				a:hover{
+						
+						color:$text-secondary;
+						border: 1px solid $base-color;
+						padding:0.2em;
+						background-color:$button-color;
+				}
+
+					}
+			}
+
+			.profiles1{
+
+				.picture1{
+				}
+				
+				
+
+
+				p{
+					a{
+						color:#205493;
+					}
+					a:hover{
+						color:#3e94cf;
+
+					}
+				}
+				.add_btn{
+					color: $text-secondary;
+					background-color:$button-color;
+					border:0.2em solid $text-secondary;
+				}
+			}
+
+
+			.profiles2{
+				
+				.picture2{
+				}
+
+				
+
+
+
+				p{
+					a{
+						color:#205493;
+					}
+					a:hover{
+						color:#3e94cf;
+
+					}
+				}
+			}
+
+
+				
+			.profiles3{
+				
+				.picture3{
+				}
+				
+
+
+
+				
+				p{
+					a{
+						color:#205493;
+					}
+					a:hover{
+						color:#3e94cf;
+
+					}
+				}
+			}
+
+
+
+			.profiles4{
+				
+				.picture4{
+				}
+				
+
+
+				
+				p{
+					a{
+						color:#205493;
+					}
+					a:hover{
+						color:#3e94cf;
+
+					}
+				}
+			}
+
+
+
+			.profiles5{
+				
+				.picture5{
+					
+				}
+					
+
+
+				
+				p{
+					a{
+						color:#205493;
+					}
+					a:hover{
+						color:#3e94cf;
+
+					}
+				}
+			}
+		}
+//---------------------------------END PEOPLE YOU MAY KNOW---------------------
+
+}
+
+.newsfeed{
+	
+
+	.news_header{
+		h3{
+				a{
+						text-decoration: none;
+						color:$base-color;
+						border: 1px solid $base-color;
+						padding:0.2em;
+						background-color:$secondary-background;
+				}
+
+				a:hover{
+						
+						color:$text-secondary;
+						border: 1px solid $base-color;
+						padding:0.2em;
+						background-color:$button-color;
+				}
+			}
+	}
+
+
+	.news_container{
+		background-color:$secondary-background;
+		.news_block{
+
+			
+
+			h4{
+				color: $primary-background;
+				a{
+					color: $button-color;
+
+				}
+				a:hover{
+					color:$button-color;
+				}
+				
+			}
+
+			h5{
+				
+
+
+				a{
+					color: $button-color;
+					
+				}
+			}
+
+			p{
+				a{
+					color:$button-color;
+
+				}
+				
+
+			}
+		}
+
+	}
+
+
+}/////-------------closing tag for news feed------//
+
+.footer{
+	background-color:$primary-background;
+	ul{
+		li{
+			a{
+			color:#ffffff;
+		}
+
+		}
+	}
+}
+
+
+
+
+
+ //-----------------------------END OF NEWS FEED-------------------------------------
+
+
+ //----------------------------------BEGIN BREAKPOINT 1-------------------------//
+
+
+ @media(min-width: 650px){
+		.nav_wrapper{
+			border-bottom: 1px solid $base-color;
+			.row{
+
+				.col{
+
+					.navbar{
+						
+						ul{
+
+							border: 1px solid $base-color;
+							background-color:$button-color;
+
+							li{
+								border: 1px solid $base-color;
+								
+								
+
+								h2{
+
+									a{
+										color:$text-secondary;	
+
+
+									}
+								}
+
+							}
+							li:hover{
+								background-color:$text-primary;
+							}
+
+
+						}
+
+
+
+
+					}	
+				}
+			}
+		}	
+
+
+
+		.user_profile{
+
+			
+			
+			.img_specs{
+				
+				p{
+						a{
+						color: $primary-background;
+
+
+				}
+					
+					a:hover{
+					color:$button-color;
+				}
+					}
+
+				
+			.user_img{
+					
+					
+			}
+			
+			}
+
+			.user_about{
+				
+				
+				h1{
+					a{
+						color:$primary-background;
+						text-decoration: none;
+
+					}
+					a:hover{
+						color:$button-color;
+										}
+				}
+
+				h2{
+					color:$base-color;
+					a{
+						color: $primary-background;
+						text-decoration: none;
+
+				}
+					
+					a:hover{
+					color:$button-color;
+				}
+			}
+
+
+		}
+				.buttons{
+				
+				
+				.upgrade_button{
+					background-color:#fdb81e;
+					border: 1px solid $base-color;
+					background:contain;
+
+					h3{
+
+						a{
+							color:$base-color;
+							margin:1em;
+						}
+
+					}
+				
+				}	
+				.upgrade_button:hover{
+					background-color:#2e8540;
+					border: 1px solid $base-color;
+					background:contain;
+
+					h3{
+
+						a{
+							color:#fdb81e;
+							margin:1em;
+						}
+						
+					}
+				
+				}	
+
+				.view_profile{
+					
+					h3{
+						a{
+						text-decoration: none;
+						color:$base-color;
+						border: 1px solid $base-color;
+						padding:0.2em;
+						background-color:$secondary-background;
+				}
+
+				a:hover{
+						
+						color:$text-secondary;
+						border: 1px solid $base-color;
+						padding:0.2em;
+						background-color:$button-color;
+				}
+					}
+					
+				}
+
+			}
+
+
+	}
+ }
+
+
+//----------------------------------------END BREAK POINT 1
+
+
+
+
+
+
+
+
+
+//-----------------------------------------BEGIN BREAKPOINT 2
+
+@media(min-width: 1000px){
+
+
+
+
+
+}//---------------END MEDIA TAG
+
+//-----------------------------------------END BREAKPOINT 2
+
+
+
+
+
+
+
+
+
+
+
+
+// -------------------------BREAKPOINT 1--------------------------------------------
+
+
+
+
+@media(min-width: 650px){
+		
+//------------------------------------------BEGGING OF NAVIGATION BAR
+
+.site-header{
+		//------------------------------TOP BANNER INCLUDING LOGO AND SEARCH BAR
+
+
+	.banner{
+		overflow:hidden;
+		margin: 0;
+		width:100%;
+
+		.logo {
+			
+
+		img {
+			
+		}
+	}
+
+		
+	//-----------------------------SEARCH BOX BEING USED AT SECOND BREAK POINT------------------
+		.search_box{
+			display:inline-block;
+			
+
+			p{
+				
+			}
+		}
+		.search_icon{
+			display: none;
+			
+
+			
+
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_wrapper{
+	margin: 0 auto;
+	margin-top:1em;
+	overflow:hidden;
+	box-sizing:border-box;
+	min-width:650px;
+
+	.row{
+
+
+		.col.col-12{
+			overflow:hidden;
+			box-sizing:border-box;
+
+			.navbar{
+				margin: 0 auto;
+				display: inline-block;
+				width: 25%;
+				vertical-align: top;
+				margin-top:1.35em;
+				
+
+
+
+				
+				ul{
+					box-sizing:border-box;
+					margin-bottom:1em;
+
+					
+
+					li{
+						display: block;
+						float:none;
+						width: 100%;
+
+		
+
+						h2{
+							text-align:left;
+
+							a{
+								text-decoration: none;
+								margin-left:0.5em;
+								
+								
+							}
+						}
+
+					}
+
+
+				}
+
+			}	//--end of navbar tag//
+
+		}//end of col tag--//
+	
+		
+
+		.user_profile{
+			overflow: hidden;
+			display: inline-block;
+			box-sizing:border-box;
+			margin: 0 auto;
+			width: 20%;
+			min-width: 20%;
+			margin-bottom: 1em;
+			text-align: top;
+
+			
+			
+			
+			.img_specs{
+				width:auto;
+				margin-left: 1em;
+				margin-right:0;
+				
+				overflow:hidden;
+				display: inline-block;
+				
+				
+			}
+				
+				.user_img{
+				
+				background: url('https://raw.githubusercontent.com/EricBlake/Web-App-Redesign-LinkedIn/master/Research/Photos/Screen%20Shot%202016-04-01%20at%2012.42.24%20PM.png');
+				background-repeat:no-repeat;
+				background-size:contain;
+				height:10em;
+				margin: 0em;
+				margin-bottom: 1em;
+				display: inline-block;
+
+			}
+			.user_about{
+				width: auto;
+				margin-left:0;
+				display: inline-block;
+				margin-left:0.5em;
+				box-sizing:border-box;
+
+				h1{
+					
+						margin-bottom: 0em;
+					
+				}
+				h2{
+					margin-top: 0.2em;
+				}
+
+
+			}
+
+			
+
+
+		}
+
+		.buttons{
+				display: inline-block;
+				box-sizing:border-box;
+				overflow: hidden;
+				width: auto;
+			
+
+				
+				.upgrade_button{
+					float:right;
+				
+				
+
+					h3{
+						a{
+							text-decoration: none;
+						}
+					}
+				
+				}	
+
+				.view_profile{
+					clear:both;
+					text-decoration: none;
+					float:right;
+
+					h3{
+						a{
+							text-decoration: none;
+						}
+					}
+				}
+
+			}
+
+		
+
+
+
+	}//---end of row tag--//
+
+} ///-------------------------end of nav wrapper
+
+
+//-----------------------------------------END OF NAVIGATION BAR
+
+//-----------------------------------------PEOPLE YOU MAY KNOW
+.people{
+			clear:both;
+			overflow: hidden;
+			padding-bottom: 2em;
+
+			.people_headings{
+				margin:1em;
+				h3:first-child{
+					padding:0.2em;
+					display: inline-block;
+					
+					
+
+				}
+				h3:nth-child(2){
+					float:right;
+					
+				}	
+
+			}
+
+		.profiles{
+			height:25em;
+			overflow: scroll;
+			direction:rtl;
+
+			.profiles1{
+				width:33%;
+				float:left;
+
+				.picture1{
+					margin: 2em auto;
+					background: url('https://raw.githubusercontent.com/EricBlake/Web-App-Redesign-LinkedIn/master/Research/Photos/Screen%20Shot%202016-04-01%20at%203.42.13%20PM.png');
+					background-repeat:no-repeat;
+					background-size:contain;
+					height:12.500em;
+					width:10em;
+					margin-bottom: 0em;
+					}
+
+				p{
+					text-align: center;
+					width: 60%;
+					margin: 0 auto;
+					margin-top: 0em;
+				}
+			}
+
+			.profiles2{
+				float:left;
+				width: 33%;
+				
+				
+
+				.picture2{
+					margin: 2em auto;
+					background: url('https://github.com/EricBlake/Web-App-Redesign-LinkedIn/blob/master/Research/Photos/Screen%20Shot%202016-04-01%20at%203.33.55%20PM.png?raw=true');
+					background-repeat:no-repeat;
+					background-size:contain;
+					height:12.500em;
+					width:10em;
+					margin-bottom: 0em;
+					}
+
+				p{
+					text-align: center;
+					width: 60%;
+					margin: 0 auto;
+				}
+			}
+
+				
+			.profiles3{
+				float:left;
+				width: 33%;
+				
+				
+				
+				
+
+				.picture3{
+					margin: 2em auto;
+					background: url('https://github.com/EricBlake/Web-App-Redesign-LinkedIn/blob/master/Research/Photos/Screen%20Shot%202016-04-01%20at%203.35.56%20PM.png?raw=true');
+					background-repeat:no-repeat;
+					background-size:contain;
+					height:12.500em;
+					width:10em;
+					margin-bottom: 0em;
+					}
+				
+				p{
+					text-align: center;
+					width: 60%;
+					margin: 0 auto;
+				}
+			}
+			.profiles4{
+				float:left;
+				width: 33%;
+				
+
+				.picture4{
+					margin: 2em auto;
+					background: url('https://raw.githubusercontent.com/EricBlake/Web-App-Redesign-LinkedIn/master/Research/Photos/Screen%20Shot%202016-04-01%20at%203.40.51%20PM.png');
+					background-repeat:no-repeat;
+					background-size:contain;
+					height:12.500em;
+					width:10em;
+					margin-bottom: 0em;
+					
+					}
+					
+					.add_logo{
+						width: 1em;
+						margin: 0 auto;
+						}
+				
+				p{
+					text-align: center;
+					width: 60%;
+					margin: 0 auto;
+				}
+			}
+
+
+			.profiles5{
+				float:left;
+				width: 33%;
+
+				.picture5{
+					margin: 2em auto;
+					background: url('https://raw.githubusercontent.com/EricBlake/Web-App-Redesign-LinkedIn/master/Research/Photos/Screen%20Shot%202016-04-01%20at%203.43.49%20PM.png');
+					background-repeat:no-repeat;
+					background-size:contain;
+					height:12.500em;
+					width:10em;
+					margin-bottom: 0em;
+
+					}	
+					
+					.add_logo{
+						width: 1em;
+						margin: 0 auto;
+						}
+				
+				p{
+					text-align: center;
+					width: 60%;
+					margin: 0 auto;
+				}
+			}
+
+		}
+
+
+			
+
+}//--end of people tag//
+
+
+		//------------------------END PEOPLE YOU MAY KNOW------------------------
+
+
+//-----------------------------------NEWS FEED BEGIN------------------------------
+
+
+.newsfeed{
+	margin:1em;
+	
+	overflow:hidden;
+
+	.news_header{
+		margin:1em;
+		padding-bottom:1em;
+		float:right;
+	}
+
+
+	.news_container{
+		overflow: hidden;
+		box-sizing:border-box;
+
+		.news_block{
+			width: 70%;
+			margin:1em;
+			
+
+			h4{
+				margin:0 auto;
+
+				a{
+					text-decoration: none;
+				}
+			}
+		}
+
+	
+	}
+}/////-------------closing tag for news feed------//
+
+
+
+
+}//----------------END MEDIA QUIRY TAG
+//----------------------------------------END BREAK POINT 1
